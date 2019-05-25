@@ -1,0 +1,38 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  },
+  "[css]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false
+  },
+  "debug.node.autoAttach": "off",
+  "jest.debugMode": false,
+  "jest.restartJestOnSnapshotUpdate": true,
+  // "jest.pathToConfig": "./jest.config.js",
+  "jest.autoEnable": false,
+  "jest.enableCodeLens": true,
+  "jest.enableInlineErrorMessages": true,
+  "jest.runAllTestsFirst": true,
+  "jest.debugCodeLens.showWhenTestStateIn": ["fail", "unknown", "pass", "skip"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ]
+}

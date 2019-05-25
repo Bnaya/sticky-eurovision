@@ -1,0 +1,5332 @@
+[
+    {
+        "group": [["receiving", "nl"], ["giving", "al"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "am"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "au"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "at"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "az"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "by"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "be"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "hr"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "cy"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "cz"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "dk"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "ee"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "fi"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "fr"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "ge"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "de"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "gr"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "hu"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "is"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "ie"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "il"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "it"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "lv"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "lt"]],
+        "value": 19,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "mt"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "md"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "me"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "mk"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "no"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "pl"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "pt"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "ro"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "ru"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "sm"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "rs"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "si"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "es"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "se"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "ch"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "nl"], ["giving", "gb"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "al"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "am"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "au"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "at"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "az"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "by"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "be"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "hr"]],
+        "value": 24,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "cy"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "cz"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "dk"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "fi"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "fr"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "ge"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "de"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "gr"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "hu"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "is"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "ie"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "il"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "lv"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "lt"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "mt"]],
+        "value": 24,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "md"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "me"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "nl"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "mk"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "no"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "pl"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "pt"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "ro"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "ru"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "sm"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "rs"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "si"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "es"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "se"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "ch"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "it"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "al"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "am"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "au"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "at"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "az"]],
+        "value": 24,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "by"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "be"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "hr"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "cy"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "cz"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "dk"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "ee"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "fi"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "fr"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "ge"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "de"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "gr"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "hu"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "ie"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "il"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "it"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "lv"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "lt"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "mt"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "md"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "me"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "nl"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "mk"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "no"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "pl"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "pt"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "ro"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "ru"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "sm"]],
+        "value": 22,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "rs"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "es"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "se"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "ch"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ru"], ["giving", "gb"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "al"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "am"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "au"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "at"]],
+        "value": 22,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "az"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "by"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "be"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "hr"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "cy"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "cz"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "dk"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "ee"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "fi"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "fr"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "ge"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "de"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "gr"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "hu"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "is"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "ie"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "il"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "it"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "lv"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "lt"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "mt"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "md"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "nl"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "mk"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "no"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "pl"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "pt"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "ro"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "ru"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "sm"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "rs"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "si"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "es"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "se"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ch"], ["giving", "gb"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "al"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "am"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "au"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "at"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "by"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "be"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "hr"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "cy"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "cz"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "dk"]],
+        "value": 22,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "ee"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "fi"]],
+        "value": 19,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "fr"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "ge"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "de"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "hu"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "is"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "ie"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "il"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "it"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "lv"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "lt"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "mt"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "md"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "nl"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "no"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "pt"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "ro"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "ru"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "rs"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "si"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "es"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "ch"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "se"], ["giving", "gb"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "al"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "am"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "au"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "at"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "az"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "by"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "be"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "hr"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "cy"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "cz"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "dk"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "ee"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "fi"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "fr"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "ge"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "de"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "hu"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "is"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "ie"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "il"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "it"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "lv"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "lt"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "mt"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "md"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "nl"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "mk"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "pl"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "pt"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "ro"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "ru"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "sm"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "rs"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "si"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "es"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "se"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "ch"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "no"], ["giving", "gb"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "al"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "am"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "au"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "at"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "az"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "by"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "hr"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "cz"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "dk"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "fi"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "fr"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "ge"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "de"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "gr"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "hu"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "is"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "ie"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "it"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "lv"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "mt"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "md"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "me"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "nl"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "no"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "pl"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "pt"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "ro"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "ru"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "sm"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "rs"]],
+        "value": 24,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "si"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "se"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "ch"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mk"], ["giving", "gb"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "al"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "au"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "at"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "by"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "cy"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "cz"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "dk"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "ee"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "fi"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "fr"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "ge"]],
+        "value": 17,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "gr"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "hu"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "is"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "ie"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "il"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "it"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "lv"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "lt"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "mt"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "md"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "me"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "nl"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "mk"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "no"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "pl"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "pt"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "ro"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "ru"]],
+        "value": 24,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "sm"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "rs"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "si"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "es"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "se"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "az"], ["giving", "gb"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "al"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "am"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "at"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "az"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "by"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "be"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "cy"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "cz"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "dk"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "ee"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "fi"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "fr"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "ge"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "de"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "gr"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "hu"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "is"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "ie"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "il"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "it"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "lv"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "lt"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "mt"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "md"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "me"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "nl"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "mk"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "no"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "pl"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "pt"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "ro"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "ru"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "rs"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "si"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "es"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "se"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "ch"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "au"], ["giving", "gb"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "am"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "au"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "at"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "by"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "be"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "hr"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "cz"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "dk"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "ee"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "fi"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "fr"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "ge"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "de"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "gr"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "hu"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "ie"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "it"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "lv"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "lt"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "mt"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "md"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "me"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "nl"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "mk"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "no"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "pl"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "pt"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "ro"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "ru"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "sm"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "rs"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "si"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "es"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "se"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "is"], ["giving", "gb"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "am"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "au"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "at"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "be"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "hr"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "ee"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "fi"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "fr"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "ge"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "hu"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "is"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "il"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "it"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "lv"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "lt"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "md"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "me"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "nl"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "no"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "pl"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "pt"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "ro"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "ru"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "rs"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "si"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "es"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "se"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cz"], ["giving", "gb"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "be"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "ee"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "fr"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "ge"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "de"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "hu"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "is"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "il"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "it"]],
+        "value": 16,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "lv"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "md"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "me"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "nl"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "no"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "pl"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "pt"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "ru"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "rs"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "si"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "se"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "ch"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "dk"], ["giving", "gb"]],
+        "value": 9,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "al"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "az"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "by"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "be"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "ge"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "gr"]],
+        "value": 24,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "hu"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "mt"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "me"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "nl"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "mk"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "no"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "ru"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "sm"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "rs"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "es"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "se"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "cy"], ["giving", "gb"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "am"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "au"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "az"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "by"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "cy"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "cz"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "fi"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "ge"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "de"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "gr"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "hu"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "il"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "it"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "lv"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "md"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "me"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "nl"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "mk"]],
+        "value": 11,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "pl"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "ru"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "rs"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "si"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "se"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "mt"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "at"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "az"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "by"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "hr"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "cz"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "ee"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "fi"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "ge"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "de"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "gr"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "hu"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "lv"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "lt"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "me"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "mk"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "pl"]],
+        "value": 14,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "pt"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "ru"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "rs"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "es"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "si"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "al"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "am"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "au"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "at"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "be"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "hr"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "cy"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "cz"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "ee"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "ge"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "de"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "gr"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "hu"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "is"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "il"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "it"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "pl"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "pt"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "ro"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "ru"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "rs"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "si"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "es"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "ch"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "fr"], ["giving", "gb"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "az"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "hr"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "cy"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "ge"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "gr"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "hu"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "it"]],
+        "value": 13,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "mt"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "me"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "mk"]],
+        "value": 20,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "ro"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "ru"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "sm"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "rs"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "ch"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "al"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "au"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "at"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "hr"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "ee"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "ge"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "hu"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "is"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "me"]],
+        "value": 24,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "mk"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "pl"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "ro"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "ru"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "rs"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "si"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "ch"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "rs"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "al"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "az"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "by"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "hr"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "ge"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "gr"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "hu"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "is"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "mt"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "md"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "me"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "mk"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "ru"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "rs"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "sm"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "hr"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "cz"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "dk"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "fi"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "ge"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "hu"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "is"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "ie"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "il"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "it"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "lv"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "lt"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "no"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "ru"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "rs"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "si"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "se"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "ee"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "al"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "az"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "by"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "be"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "cy"]],
+        "value": 24,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "ge"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "hu"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "mt"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "ru"]],
+        "value": 10,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "sm"]],
+        "value": 18,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "rs"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gr"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "az"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "be"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "cy"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "dk"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "fr"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "ge"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "gr"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "hu"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "il"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "nl"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "pt"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "ru"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "rs"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "ch"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "es"], ["giving", "gb"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "cy"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "cz"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "fr"]],
+        "value": 12,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "ge"]],
+        "value": 4,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "hu"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "md"]],
+        "value": 7,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "ro"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "ru"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "sm"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "rs"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "il"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "am"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "az"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "ee"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "ge"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "hu"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "ie"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "ru"]],
+        "value": 15,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "rs"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "ch"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "by"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "am"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "au"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "dk"]],
+        "value": 8,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "ge"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "hu"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "ie"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "lt"]],
+        "value": 5,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "no"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "ru"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "rs"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "ch"]],
+        "value": 6,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "de"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "al"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "am"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "au"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "at"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "az"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "by"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "be"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "hr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "cy"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "cz"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "dk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "ee"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "fi"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "fr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "ge"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "de"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "gr"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "hu"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "is"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "ie"]],
+        "value": 3,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "il"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "it"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "lv"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "lt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "mt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "md"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "me"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "nl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "mk"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "no"]],
+        "value": 2,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "pl"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "pt"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "ro"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "ru"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "sm"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "rs"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "si"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "es"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "se"]],
+        "value": 0,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "ch"]],
+        "value": 1,
+        "valueType": "number"
+    },
+    {
+        "group": [["receiving", "gb"], ["giving", "gb"]],
+        "value": 0,
+        "valueType": "number"
+    }
+]

@@ -8,7 +8,8 @@
     "@types/react": "16.8.18",
     "@types/react-dom": "16.8.4",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react-dom": "npm:@hot-loader/react-dom",
+    "react-hot-loader": "^4.8.8",
     "react-scripts": "3.0.1",
     "typescript": "3.4.5"
   },
@@ -16,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "yarn-deduplicate": "yarn-deduplicate yarn.lock -s fewer"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,5 +34,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "yarn-deduplicate": "^1.1.1"
+  },
+  "resolutions": {
+    "babel-preset-react-app": "npm:babel-preset-react-app-with-rhl"
   }
 }
