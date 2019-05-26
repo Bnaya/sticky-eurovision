@@ -17,11 +17,13 @@
 }
 
 .firstRowWrapper {
-
+  position: sticky;
+  top: 0;
 }
 
 .lastRowWrapper {
-
+  position: sticky;
+  bottom: 0;
 }
 
 .baseCell {
@@ -91,19 +93,23 @@
 }
 
 .cellInFirstRow {
-  composes: baseHeaderFooterStarterEnder
+  composes: baseHeaderFooterStarterEnder;
 }
 
 .cellInLastRow {
-  composes: baseHeaderFooterStarterEnder
+  composes: baseHeaderFooterStarterEnder;
 }
 
 .cellInFirstColumn {
-  composes: baseHeaderFooterStarterEnder
+  composes: baseHeaderFooterStarterEnder;
+  position: sticky;
+  left: 0;
 }
 
 .cellInLastColumn {
-  composes: baseHeaderFooterStarterEnder
+  composes: baseHeaderFooterStarterEnder;
+  position: sticky;
+  right: 0;
 }
 
 .regularCell {
