@@ -41,106 +41,81 @@ export function toDataPointSpace(
   return [x - 1, y - 1, columnsCount - 2, rowsCount - 2];
 }
 
-export function isNorthWest(
-  x: number,
-  y: number,
-  columnsCount: number,
-  rowsCount: number
-) {
-  const args = [x, y, columnsCount, rowsCount] as const;
-  return isColumnHeader(...args) && isRowStarter(...args);
+export function toDataObjectPointSpace(point: IPointObject): IPointObject {
+  return {
+    x: point.x - 1,
+    y: point.y - 1,
+    columnsCount: point.columnsCount - 2,
+    rowsCount: point.rowsCount - 2
+  };
 }
 
-export function isNorthEast(
-  x: number,
-  y: number,
-  columnsCount: number,
-  rowsCount: number
-) {
-  const args = [x, y, columnsCount, rowsCount] as const;
-  return isColumnHeader(...args) && isRowEnder(...args);
+export function isNorthWest(point: IPointObject) {
+  return isColumnHeader(point) && isRowStarter(point);
 }
 
-export function isSouthWest(
-  x: number,
-  y: number,
-  columnsCount: number,
-  rowsCount: number
-) {
-  const args = [x, y, columnsCount, rowsCount] as const;
-  return isColumnFooter(...args) && isRowStarter(...args);
+export function isNorthEast(point: IPointObject) {
+  return isColumnHeader(point) && isRowEnder(point);
 }
 
-export function isSouthEast(
-  x: number,
-  y: number,
-  columnsCount: number,
-  rowsCount: number
-) {
-  const args = [x, y, columnsCount, rowsCount] as const;
-  return isColumnFooter(...args) && isRowEnder(...args);
+export function isSouthWest(point: IPointObject) {
+  return isColumnFooter(point) && isRowStarter(point);
 }
 
-export function isColumnHeader(
-  x: number,
-  y: number,
-  columnsCount: number,
-  rowsCount: number
-) {
-  return y === 0;
+export function isSouthEast(point: IPointObject) {
+  return isColumnFooter(point) && isRowEnder(point);
 }
 
-export function isColumnFooter(
-  x: number,
-  y: number,
-  columnsCount: number,
-  rowsCount: number
-) {
-  return y === rowsCount - 1;
+export function isColumnHeader(point: IPointObject) {
+  return point.y === 0;
 }
 
-export function isRowStarter(
-  x: number,
-  y: number,
-  columnsCount: number,
-  rowsCount: number
-) {
-  return x === 0;
+export function isColumnFooter(point: IPointObject) {
+  return point.y === point.rowsCount - 1;
 }
 
-export function isRowEnder(
-  x: number,
-  y: number,
-  columnsCount: number,
-  rowsCount: number
-) {
-  return x === columnsCount - 1;
+export function isRowStarter(point: IPointObject) {
+  return point.x === 0;
 }
 
-export function isEdgeComponent(
-  x: number,
-  y: number,
-  columnsCount: number,
-  rowsCount: number
-) {
+export function isRowEnder(point: IPointObject) {
+  return point.x === point.columnsCount - 1;
+}
+
+export function isEdgeComponent(point: IPointObject) {
   return (
-    isColumnHeader(x, y, columnsCount, rowsCount) ||
-    isColumnFooter(x, y, columnsCount, rowsCount) ||
-    isRowStarter(x, y, columnsCount, rowsCount) ||
-    isRowEnder(x, y, columnsCount, rowsCount)
+    isColumnHeader(point) ||
+    isColumnFooter(point) ||
+    isRowStarter(point) ||
+    isRowEnder(point)
   );
 }
 
-export function isCornerCell(
-  x: number,
-  y: number,
-  columnsCount: number,
-  rowsCount: number
-) {
+export function isCornerCell(point: IPointObject) {
   return (
-    isNorthWest(x, y, columnsCount, rowsCount) ||
-    isNorthEast(x, y, columnsCount, rowsCount) ||
-    isSouthWest(x, y, columnsCount, rowsCount) ||
-    isSouthEast(x, y, columnsCount, rowsCount)
+    isNorthWest(point) ||
+    isNorthEast(point) ||
+    isSouthWest(point) ||
+    isSouthEast(point)
   );
 }
+
+// function getClassnamesForPoint(...point: IPointTuple): string {
+//   if (isNorthWest(...point)) {
+//     return style.cellInLeftTopCorner;
+//   }
+
+//   if (isNorthEast(...point)) {
+//     return style.cellInRightTopCorner;
+//   }
+
+//   if (isSouthWest(...point)) {
+//     return style.cellInLeftBottomCorner;
+//   }
+
+//   if (isSouthEast(...point)) {
+//     return style.cellInRightBottomCorner;
+//   }
+
+//   return style.regularCell;
+// }
