@@ -3,7 +3,11 @@ import { hot } from "react-hot-loader/root";
 import { IDateEntry, IPointObject } from "../interfaces";
 import staticData from "../staticData.json";
 import style from "./EurovisionTable.module.css";
-import { countriesList } from "../countriesList";
+import {
+  countriesTheFinal,
+  isoCodeToName,
+  countriesThatGiveScore
+} from "../countriesList";
 import {
   // isNorthWest,
   // isNorthEast,
@@ -15,8 +19,13 @@ import {
   isRowStarter,
   isColumnFooter,
   isColumnHeader,
-  toDataObjectPointSpace
+  toDataObjectPointSpace,
+  isNorthWest,
+  isNorthEast,
+  isSouthWest,
+  isSouthEast
 } from "../utils";
+import classNames from "classnames";
 
 export const staticDataTyped: IDateEntry[] = staticData as IDateEntry[];
 
@@ -32,8 +41,8 @@ export function EurovisionTable() {
 
 function renderCells() {
   const toReturn: Array<JSX.Element> = [];
-  const columnsCount = countriesList.length + 2;
-  const rowsCount = countriesList.length + 2;
+  const columnsCount = countriesThatGiveScore.length + 2;
+  const rowsCount = countriesTheFinal.length + 2;
 
   for (let rowIndex = 0; rowIndex < rowsCount; rowIndex++) {
     const rowCells: Array<JSX.Element> = [];
@@ -48,7 +57,14 @@ function renderCells() {
       );
     }
     toReturn.push(
-      <div key={`row-${rowIndex}`} data-key={`row-${rowIndex}`}>
+      <div
+        key={`row-${rowIndex}`}
+        data-key={`row-${rowIndex}`}
+        className={classNames({
+          [style.firstRowWrapper]: rowIndex === 0,
+          [style.lastRowWrapper]: rowIndex === rowsCount - 1
+        })}
+      >
         {rowCells}
       </div>
     );
@@ -58,26 +74,36 @@ function renderCells() {
 }
 
 function cellReactElement(point: IPointObject) {
+  const className = getClassnamesForPoint(point);
+
   if (isCornerCell(point)) {
-    return <CornerComponent />;
+    return (
+      <CornerComponent key={`${point.x}-${point.x}`} className={className} />
+    );
   }
 
   const pointInDataCellsSpace = toDataObjectPointSpace(point);
 
   if (isRowEnder(point) || isRowStarter(point)) {
+    const isoCode = countriesTheFinal[pointInDataCellsSpace.y];
     return (
       <EdgeComponent
-        name={countriesList[pointInDataCellsSpace.y].name}
-        isoCode={countriesList[pointInDataCellsSpace.y].isoCode}
+        key={`${point.x}-${point.x}`}
+        className={className}
+        name={isoCodeToName[isoCode]}
+        isoCode={isoCode}
       />
     );
   }
 
   if (isColumnHeader(point) || isColumnFooter(point)) {
+    const isoCode = countriesThatGiveScore[pointInDataCellsSpace.x];
     return (
       <EdgeComponent
-        name={countriesList[pointInDataCellsSpace.x].name}
-        isoCode={countriesList[pointInDataCellsSpace.x].isoCode}
+        key={`${point.x}-${point.x}`}
+        className={className}
+        name={isoCodeToName[isoCode]}
+        isoCode={isoCode}
       />
     );
   }
@@ -85,20 +111,23 @@ function cellReactElement(point: IPointObject) {
   return dataCellReactElement(pointInDataCellsSpace);
 }
 
-function CornerComponent() {
-  return (
-    <div className={style.baseHeaderFooterStarterEnder}>
-      <span>Score By:</span>
-      <span>Score To:</span>
-    </div>
-  );
+function CornerComponent({ className }: { className: string }) {
+  return <div className={className} />;
 }
 
-function EdgeComponent({ name, isoCode }: { name: string; isoCode: string }) {
+function EdgeComponent({
+  name,
+  isoCode,
+  className
+}: {
+  name: string;
+  isoCode: string;
+  className: string;
+}) {
   return (
     <div
       title={name}
-      className={style.baseHeaderFooterStarterEnder}
+      className={className}
       style={{
         backgroundImage: `url(https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/${isoCode}.svg)`
       }}
@@ -108,15 +137,15 @@ function EdgeComponent({ name, isoCode }: { name: string; isoCode: string }) {
   );
 }
 
-function dataCellReactElement(point: IPointObject) {
+function dataCellReactElement(pointInDataSpace: IPointObject) {
   const dataCell = getCellForGroup([
-    ["receiving", countriesList[point.y].isoCode],
-    ["giving", countriesList[point.x].isoCode]
+    ["receiving", countriesTheFinal[pointInDataSpace.y]],
+    ["giving", countriesThatGiveScore[pointInDataSpace.x]]
   ]);
   return (
     <div
-      data-key={`${point.x}-${point.y}`}
-      key={`${point.x}-${point.y}`}
+      data-key={`data-cell-${pointInDataSpace.x}-${pointInDataSpace.y}`}
+      key={`data-cell-${pointInDataSpace.x}-${pointInDataSpace.y}`}
       className={style.regularCell}
     >
       {dataCell.value}
@@ -125,3 +154,39 @@ function dataCellReactElement(point: IPointObject) {
 }
 
 export const EurovisionTableHot = hot(EurovisionTable);
+
+function getClassnamesForPoint(pointInGlobalSpace: IPointObject): string {
+  if (isNorthWest(pointInGlobalSpace)) {
+    return style.cellInLeftTopCorner;
+  }
+
+  if (isNorthEast(pointInGlobalSpace)) {
+    return style.cellInRightTopCorner;
+  }
+
+  if (isSouthWest(pointInGlobalSpace)) {
+    return style.cellInLeftBottomCorner;
+  }
+
+  if (isSouthEast(pointInGlobalSpace)) {
+    return style.cellInRightBottomCorner;
+  }
+
+  if (isRowStarter(pointInGlobalSpace)) {
+    return style.cellInFirstColumn;
+  }
+
+  if (isRowEnder(pointInGlobalSpace)) {
+    return style.cellInLastColumn;
+  }
+
+  if (isColumnHeader(pointInGlobalSpace)) {
+    return style.cellInFirstRow;
+  }
+
+  if (isColumnFooter(pointInGlobalSpace)) {
+    return style.cellInLastRow;
+  }
+
+  return style.regularCell;
+}

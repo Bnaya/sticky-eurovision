@@ -99,23 +99,3 @@ export function isCornerCell(point: IPointObject) {
     isSouthEast(point)
   );
 }
-
-// function getClassnamesForPoint(...point: IPointTuple): string {
-//   if (isNorthWest(...point)) {
-//     return style.cellInLeftTopCorner;
-//   }
-
-//   if (isNorthEast(...point)) {
-//     return style.cellInRightTopCorner;
-//   }
-
-//   if (isSouthWest(...point)) {
-//     return style.cellInLeftBottomCorner;
-//   }
-
-//   if (isSouthEast(...point)) {
-//     return style.cellInRightBottomCorner;
-//   }
-
-//   return style.regularCell;
-// }

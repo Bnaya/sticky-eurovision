@@ -1,137 +1,118 @@
 import { CountryCode } from "./interfaces";
 
 export const isoCodeToName: { [code in CountryCode]: string } = {
-  nl: "Netherlands",
-  it: "Italy",
-  ru: "Russia",
-  ch: "Switzerland",
-  se: "Sweden",
-  no: "Norway",
-  mk: "North Macedonia",
-  az: "Azerbaijan",
-  au: "Australia",
-  is: "Iceland",
-  cz: "Czech Republic",
-  dk: "Denmark",
-  cy: "Cyprus",
-  mt: "Malta",
-  si: "Slovenia",
-  fr: "France",
   al: "Albania",
-  rs: "Serbia",
-  sm: "San Marino",
-  ee: "Estonia",
-  gr: "Greece",
-  es: "Spain",
-  il: "Israel",
+  am: "Armenia",
+  at: "Austria",
+  au: "Australia",
+  az: "Azerbaijan",
+  be: "Belgium",
   by: "Belarus",
+  ch: "Switzerland",
+  cy: "Cyprus",
+  cz: "Czech Republic",
   de: "Germany",
-  gb: "United Kingdom"
+  dk: "Denmark",
+  ee: "Estonia",
+  es: "Spain",
+  fi: "Finland",
+  fr: "France",
+  gb: "United Kingdom",
+  ge: "Georgia",
+  gr: "Greece",
+  hr: "Croatia",
+  hu: "Hungary",
+  ie: "Ireland",
+  il: "Israel",
+  is: "Iceland",
+  it: "Italy",
+  lt: "Lithuania",
+  lv: "Latvia",
+  md: "Moldova",
+  me: "Montenegro",
+  mk: "North Macedonia",
+  mt: "Malta",
+  nl: "Netherlands",
+  no: "Norway",
+  pl: "Poland",
+  pt: "Portugal",
+  ro: "Romania",
+  rs: "Serbia",
+  ru: "Russia",
+  se: "Sweden",
+  si: "Slovenia",
+  sm: "San Marino"
 };
 
-export const countriesList: Array<{ name: string; isoCode: CountryCode }> = [
-  {
-    isoCode: "nl",
-    name: "Netherlands"
-  },
-  {
-    isoCode: "it",
-    name: "Italy"
-  },
-  {
-    isoCode: "ru",
-    name: "Russia"
-  },
-  {
-    isoCode: "ch",
-    name: "Switzerland"
-  },
-  {
-    isoCode: "se",
-    name: "Sweden"
-  },
-  {
-    isoCode: "no",
-    name: "Norway"
-  },
-  {
-    isoCode: "mk",
-    name: "North Macedonia"
-  },
-  {
-    isoCode: "az",
-    name: "Azerbaijan"
-  },
-  {
-    isoCode: "au",
-    name: "Australia"
-  },
-  {
-    isoCode: "is",
-    name: "Iceland"
-  },
-  {
-    isoCode: "cz",
-    name: "Czech Republic"
-  },
-  {
-    isoCode: "dk",
-    name: "Denmark"
-  },
-  {
-    isoCode: "cy",
-    name: "Cyprus"
-  },
-  {
-    isoCode: "mt",
-    name: "Malta"
-  },
-  {
-    isoCode: "si",
-    name: "Slovenia"
-  },
-  {
-    isoCode: "fr",
-    name: "France"
-  },
-  {
-    isoCode: "al",
-    name: "Albania"
-  },
-  {
-    isoCode: "rs",
-    name: "Serbia"
-  },
-  {
-    isoCode: "sm",
-    name: "San Marino"
-  },
-  {
-    isoCode: "ee",
-    name: "Estonia"
-  },
-  {
-    isoCode: "gr",
-    name: "Greece"
-  },
-  {
-    isoCode: "es",
-    name: "Spain"
-  },
-  {
-    isoCode: "il",
-    name: "Israel"
-  },
-  {
-    isoCode: "by",
-    name: "Belarus"
-  },
-  {
-    isoCode: "de",
-    name: "Germany"
-  },
-  {
-    isoCode: "gb",
-    name: "United Kingdom"
-  }
+export const countriesThatGiveScore = [
+  "al",
+  "am",
+  "au",
+  "at",
+  "az",
+  "by",
+  "be",
+  "hr",
+  "cy",
+  "cz",
+  "dk",
+  "ee",
+  "fi",
+  "fr",
+  "ge",
+  "de",
+  "gr",
+  "hu",
+  "is",
+  "ie",
+  "il",
+  "it",
+  "lv",
+  "lt",
+  "mt",
+  "md",
+  "me",
+  "nl",
+  "mk",
+  "no",
+  "pl",
+  "pt",
+  "ro",
+  "ru",
+  "sm",
+  "rs",
+  "si",
+  "es",
+  "se",
+  "ch",
+  "gb"
+];
+
+export const countriesTheFinal = [
+  "nl",
+  "it",
+  "ru",
+  "ch",
+  "se",
+  "no",
+  "mk",
+  "az",
+  "au",
+  "is",
+  "cz",
+  "dk",
+  "cy",
+  "mt",
+  "si",
+  "fr",
+  "al",
+  "rs",
+  "sm",
+  "ee",
+  "gr",
+  "es",
+  "il",
+  "by",
+  "de",
+  "gb"
 ];
