@@ -7,6 +7,7 @@
     "@types/node": "12.0.2",
     "@types/react": "16.8.18",
     "@types/react-dom": "16.8.4",
+    "classnames": "^2.2.6",
     "react": "^16.8.6",
     "react-dom": "npm:@hot-loader/react-dom",
     "react-hot-loader": "^4.8.8",
@@ -36,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.7",
     "yarn-deduplicate": "^1.1.1"
   },
   "resolutions": {

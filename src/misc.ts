@@ -1,4 +1,7 @@
 /* eslint-disable no-undef */
+
+// https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/nl.svg
+
 // https://eurovisionworld.com/eurovision/2019
 
 // @ts-ignore
