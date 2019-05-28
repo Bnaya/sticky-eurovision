@@ -16,9 +16,13 @@
   position: relative;
 }
 
+.rowWrapper {
+}
+
 .firstRowWrapper {
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 
 .lastRowWrapper {
@@ -47,7 +51,9 @@
 
 .baseCornerCell {
   composes: baseCell;
-  position: relative;
+  position: sticky;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 3;
 }
 
 .baseCornerCell::before {
@@ -70,19 +76,27 @@
 }
 
 .cellInLeftTopCorner {
-  composes: baseCornerCell
+  composes: baseCornerCell;
+  top: 0;
+  left: 0;
 }
 
 .cellInRightTopCorner {
-  composes: baseCornerCell
+  top: 0;
+  right: 0;
+  composes: baseCornerCell;
 }
 
 .cellInLeftBottomCorner {
-  composes: baseCornerCell
+  left: 0;
+  bottom: 0;
+  composes: baseCornerCell;
 }
 
 .cellInRightBottomCorner {
-  composes: baseCornerCell
+  right: 0;
+  bottom: 0;
+  composes: baseCornerCell;
 }
 
 .cellInRightBottomCorner::before, .cellInLeftBottomCorner::before {
@@ -115,4 +129,28 @@
 .regularCell {
   composes: baseCell;
   font-size: 25px;
+}
+
+.oddRow {
+
+}
+
+.evenRow {
+
+}
+
+.oddColumn {
+
+}
+
+.evenColumn {
+
+}
+
+.regularCell.oddRow.oddColumn {
+  background-color: blue;
+}
+
+.regularCell.evenRow.evenColumn {
+  background-color: blueviolet;
 }

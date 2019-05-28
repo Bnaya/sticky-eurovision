@@ -60,9 +60,11 @@ function renderCells() {
       <div
         key={`row-${rowIndex}`}
         data-key={`row-${rowIndex}`}
-        className={classNames({
+        className={classNames(style.rowWrapper, {
           [style.firstRowWrapper]: rowIndex === 0,
-          [style.lastRowWrapper]: rowIndex === rowsCount - 1
+          [style.lastRowWrapper]: rowIndex === rowsCount - 1,
+          [style.oddRow]: rowIndex % 2 > 0,
+          [style.evenRow]: rowIndex % 2 === 0
         })}
       >
         {rowCells}
@@ -146,7 +148,12 @@ function dataCellReactElement(pointInDataSpace: IPointObject) {
     <div
       data-key={`data-cell-${pointInDataSpace.x}-${pointInDataSpace.y}`}
       key={`data-cell-${pointInDataSpace.x}-${pointInDataSpace.y}`}
-      className={style.regularCell}
+      className={classNames(style.regularCell, {
+        [style.oddRow]: pointInDataSpace.y % 2 > 0,
+        [style.evenRow]: pointInDataSpace.y % 2 === 0,
+        [style.oddColumn]: pointInDataSpace.x % 2 > 0,
+        [style.evenColumn]: pointInDataSpace.x % 2 === 0
+      })}
     >
       {dataCell.value}
     </div>
