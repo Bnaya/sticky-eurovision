@@ -17,6 +17,7 @@
 }
 
 .rowWrapper {
+  width: calc(var(--columnsCount) * var(--cellWidthHeight))
 }
 
 .firstRowWrapper {

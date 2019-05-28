@@ -32,7 +32,16 @@ export const staticDataTyped: IDateEntry[] = staticData as IDateEntry[];
 export function EurovisionTable() {
   return (
     <div className={style.wrapper}>
-      <div className={style.grid} style={{} as CSSProperties}>
+      <div
+        className={style.grid}
+        style={
+          {
+            "--rowsCount": `${countriesTheFinal.length + 2}`,
+            "--columnsCount": `${countriesThatGiveScore.length + 2}`,
+            "--cellWidthHeight": 100 + "px"
+          } as CSSProperties
+        }
+      >
         {renderCells()}
       </div>
     </div>
