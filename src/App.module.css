@@ -1,0 +1,25 @@
+:global body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: 250px 1fr;
+}
+
+.nav {
+
+}
+
+.nav a[aria-current=page] {
+  color: green;
+}
+
+.content {
+  /* this is the way to tell grid cell to not expand by the content  */
+  overflow: hidden;
+}
