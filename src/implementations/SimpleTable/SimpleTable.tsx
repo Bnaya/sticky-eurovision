@@ -1,17 +1,12 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { IPointObject } from "../common/interfaces";
 import style from "./SimpleTable.module.scss";
-import {
-  countriesTheFinal,
-  isoCodeToName,
-  countriesThatGiveScore
-} from "../common/countriesList";
+import { isoCodeToName } from "../common/countriesList";
 import {
   // isNorthWest,
   // isNorthEast,
   // isSouthWest,
   // isSouthEast,
-  getCellForGroup,
   isCornerCell,
   isRowEnder,
   isRowStarter,
@@ -24,36 +19,44 @@ import {
   isSouthEast
 } from "../common/utils";
 import classNames from "classnames";
+import { useCellData, useEdgeControls, useDataPlot } from "../common/hooks";
 
 export function SimpleTable() {
   return (
     <div className={style.scrollablePart}>
       <table
         className={classNames(style.grid, {
-          [style.activateStickiness]: true
+          [style.activateStickiness]: false
         })}
       >
-        <tbody>{renderCells()}</tbody>
+        <tbody>
+          <RenderCells />
+        </tbody>
       </table>
     </div>
   );
 }
 
-function renderCells() {
+function RenderCells() {
+  const { countriesGivingScore, countriesInTheFinal } = useDataPlot();
   const toReturn: Array<JSX.Element> = [];
-  const columnsCount = countriesThatGiveScore.length + 2;
-  const rowsCount = countriesTheFinal.length + 2;
+  const columnsCount = countriesGivingScore.length + 2;
+  const rowsCount = countriesInTheFinal.length + 2;
 
   for (let rowIndex = 0; rowIndex < rowsCount; rowIndex++) {
     const rowCells: Array<JSX.Element> = [];
     for (let columnIndex = 0; columnIndex < columnsCount; columnIndex++) {
       rowCells.push(
-        cellReactElement({
-          x: columnIndex,
-          y: rowIndex,
-          columnsCount,
-          rowsCount
-        })
+        <CellOfAnyKind
+          key={`${rowIndex}-${columnIndex}`}
+          data-key={`${rowIndex}-${columnIndex}`}
+          {...{
+            x: columnIndex,
+            y: rowIndex,
+            columnsCount,
+            rowsCount
+          }}
+        />
       );
     }
     toReturn.push(
@@ -72,11 +75,12 @@ function renderCells() {
     );
   }
 
-  return toReturn;
+  return <>{toReturn}</>;
 }
 
-function cellReactElement(point: IPointObject) {
+function CellOfAnyKind(point: IPointObject) {
   const className = getClassnamesForPoint(point);
+  const { countriesInTheFinal, countriesGivingScore } = useDataPlot();
 
   if (isCornerCell(point)) {
     return (
@@ -87,30 +91,37 @@ function cellReactElement(point: IPointObject) {
   const pointInDataCellsSpace = toDataObjectPointSpace(point);
 
   if (isRowEnder(point) || isRowStarter(point)) {
-    const isoCode = countriesTheFinal[pointInDataCellsSpace.y];
+    const isoCode = countriesInTheFinal[pointInDataCellsSpace.y];
     return (
       <EdgeComponent
         key={`${point.x}-${point.x}`}
         className={className}
         name={isoCodeToName[isoCode]}
         isoCode={isoCode}
+        side={isRowStarter(point) ? "left" : "right"}
       />
     );
   }
 
   if (isColumnHeader(point) || isColumnFooter(point)) {
-    const isoCode = countriesThatGiveScore[pointInDataCellsSpace.x];
+    const isoCode = countriesGivingScore[pointInDataCellsSpace.x];
     return (
       <EdgeComponent
         key={`${point.x}-${point.x}`}
         className={className}
         name={isoCodeToName[isoCode]}
         isoCode={isoCode}
+        side={isColumnHeader(point) ? "top" : "bottom"}
       />
     );
   }
 
-  return dataCellReactElement(pointInDataCellsSpace);
+  return (
+    <DataCellComponent
+      key={`${point.x}-${point.x}`}
+      {...pointInDataCellsSpace}
+    />
+  );
 }
 
 function CornerComponent({ className }: { className: string }) {
@@ -120,12 +131,25 @@ function CornerComponent({ className }: { className: string }) {
 function EdgeComponent({
   name,
   isoCode,
-  className
+  className,
+  side
 }: {
   name: string;
   isoCode: string;
   className: string;
+  side: "top" | "right" | "bottom" | "left";
 }) {
+  const {
+    toggleSortGivingByReceiver,
+    toggleSortReceivingByGiver
+  } = useEdgeControls();
+  const onClick = useCallback(() => {
+    if (side === "top" || side === "bottom") {
+      toggleSortReceivingByGiver(isoCode);
+    } else {
+      toggleSortGivingByReceiver(isoCode);
+    }
+  }, [isoCode, side, toggleSortGivingByReceiver, toggleSortReceivingByGiver]);
   return (
     <td
       title={name}
@@ -133,17 +157,16 @@ function EdgeComponent({
       style={{
         backgroundImage: `url(https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/${isoCode}.svg)`
       }}
+      onClick={onClick}
     >
       {name}
     </td>
   );
 }
 
-function dataCellReactElement(pointInDataSpace: IPointObject) {
-  const dataCell = getCellForGroup([
-    ["receiving", countriesTheFinal[pointInDataSpace.y]],
-    ["giving", countriesThatGiveScore[pointInDataSpace.x]]
-  ]);
+function DataCellComponent(pointInDataSpace: IPointObject) {
+  const dataCell = useCellData(pointInDataSpace.x, pointInDataSpace.y);
+
   return (
     <td
       data-key={`data-cell-${pointInDataSpace.x}-${pointInDataSpace.y}`}

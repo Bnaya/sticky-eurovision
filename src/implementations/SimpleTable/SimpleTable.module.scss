@@ -19,48 +19,6 @@
 .lastRowWrapper {
 }
 
-.activateStickiness {
-  .firstRowWrapper > td {
-    position: sticky;
-    top: 0;
-  }
-
-  .lastRowWrapper > td {
-    position: sticky;
-    bottom: 0;
-  }
-
-  td.cellInFirstColumn {
-    position: sticky;
-    left: 0;
-  }
-
-  td.cellInLastColumn {
-    position: sticky;
-    right: 0;
-  }
-
-  .cellInLeftTopCorner {
-    top: 0;
-    left: 0;
-  }
-
-  .cellInRightTopCorner {
-    top: 0;
-    right: 0;
-  }
-
-  .cellInLeftBottomCorner {
-    left: 0;
-    bottom: 0;
-  }
-
-  .cellInRightBottomCorner {
-    right: 0;
-    bottom: 0;
-  }
-}
-
 .baseCell {
   width: 100px;
   min-width: 100px;
@@ -88,20 +46,20 @@
   z-index: 3;
 }
 
-.baseCornerCell::before {
-  display: block;
-  content: "Score To:";
-  position: absolute;
-  transform: rotate(90deg);
-  transform-origin: bottom left;
-}
+// .baseCornerCell::before {
+//   display: block;
+//   content: "Score To:";
+//   position: absolute;
+//   transform: rotate(90deg);
+//   transform-origin: bottom left;
+// }
 
-.baseCornerCell::after {
-  display: block;
-  content: "Score By:";
-  right: 2px;
-  position: absolute;
-}
+// .baseCornerCell::after {
+//   display: block;
+//   content: "Score By:";
+//   right: 2px;
+//   position: absolute;
+// }
 
 .cellInLeftTopCorner {
   composes: baseCornerCell;
@@ -164,4 +122,46 @@
 
 .regularCell.evenRow.evenColumn {
   background-color: blueviolet;
+}
+
+.activateStickiness {
+  .firstRowWrapper > td {
+    position: sticky;
+    top: 0;
+  }
+
+  .lastRowWrapper > td {
+    position: sticky;
+    bottom: 0;
+  }
+
+  td.cellInFirstColumn {
+    position: sticky;
+    left: 0;
+  }
+
+  td.cellInLastColumn {
+    position: sticky;
+    right: 0;
+  }
+
+  .cellInLeftTopCorner {
+    top: 0;
+    left: 0;
+  }
+
+  .cellInRightTopCorner {
+    top: 0;
+    right: 0;
+  }
+
+  .cellInLeftBottomCorner {
+    left: 0;
+    bottom: 0;
+  }
+
+  .cellInRightBottomCorner {
+    right: 0;
+    bottom: 0;
+  }
 }
