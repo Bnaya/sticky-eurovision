@@ -1,5 +1,5 @@
 import { Group, IPointObject, IPointTuple } from "./interfaces";
-import { staticDataTyped } from "./EurovisionTable/EurovisionTable";
+import { staticDataTyped } from "./staticDataTyped";
 
 export function getCellForGroup(group: Group) {
   const cell = staticDataTyped.find(cell => compareGroups(group, cell.group));

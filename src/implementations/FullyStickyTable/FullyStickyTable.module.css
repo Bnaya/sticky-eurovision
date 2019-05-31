@@ -9,6 +9,7 @@
   white-space: nowrap;
   overflow: auto;
   position: relative;
+  scroll-snap-type: both mandatory;
 }
 
 .rowWrapper {
@@ -36,6 +37,7 @@
   vertical-align: middle;
   white-space: normal;
   text-shadow: #FC0 1px 0 10px;
+  scroll-snap-align: start;
 }
 
 .baseHeaderFooterStarterEnder {

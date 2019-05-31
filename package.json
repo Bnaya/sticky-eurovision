@@ -40,6 +40,7 @@
   "devDependencies": {
     "@types/classnames": "^2.2.8",
     "@types/reach__router": "^1.2.4",
+    "node-sass": "^4.12.0",
     "yarn-deduplicate": "^1.1.1"
   },
   "resolutions": {

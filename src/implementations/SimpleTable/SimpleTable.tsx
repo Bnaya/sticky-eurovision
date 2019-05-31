@@ -1,13 +1,11 @@
-import React, { CSSProperties } from "react";
-import { hot } from "react-hot-loader/root";
-import { IDateEntry, IPointObject } from "../interfaces";
-import staticData from "../staticData.json";
-import style from "./EurovisionTable.module.css";
+import React from "react";
+import { IPointObject } from "../common/interfaces";
+import style from "./SimpleTable.module.scss";
 import {
   countriesTheFinal,
   isoCodeToName,
   countriesThatGiveScore
-} from "../countriesList";
+} from "../common/countriesList";
 import {
   // isNorthWest,
   // isNorthEast,
@@ -24,26 +22,19 @@ import {
   isNorthEast,
   isSouthWest,
   isSouthEast
-} from "../utils";
+} from "../common/utils";
 import classNames from "classnames";
 
-export const staticDataTyped: IDateEntry[] = staticData as IDateEntry[];
-
-export function EurovisionTable() {
+export function SimpleTable() {
   return (
-    <div className={style.wrapper}>
-      <div
-        className={style.grid}
-        style={
-          {
-            "--rowsCount": `${countriesTheFinal.length + 2}`,
-            "--columnsCount": `${countriesThatGiveScore.length + 2}`,
-            "--cellWidthHeight": 100 + "px"
-          } as CSSProperties
-        }
+    <div className={style.scrollablePart}>
+      <table
+        className={classNames(style.grid, {
+          [style.activateStickiness]: true
+        })}
       >
-        {renderCells()}
-      </div>
+        <tbody>{renderCells()}</tbody>
+      </table>
     </div>
   );
 }
@@ -66,7 +57,7 @@ function renderCells() {
       );
     }
     toReturn.push(
-      <div
+      <tr
         key={`row-${rowIndex}`}
         data-key={`row-${rowIndex}`}
         className={classNames(style.rowWrapper, {
@@ -77,7 +68,7 @@ function renderCells() {
         })}
       >
         {rowCells}
-      </div>
+      </tr>
     );
   }
 
@@ -123,7 +114,7 @@ function cellReactElement(point: IPointObject) {
 }
 
 function CornerComponent({ className }: { className: string }) {
-  return <div className={className} />;
+  return <td className={className} />;
 }
 
 function EdgeComponent({
@@ -136,7 +127,7 @@ function EdgeComponent({
   className: string;
 }) {
   return (
-    <div
+    <td
       title={name}
       className={className}
       style={{
@@ -144,7 +135,7 @@ function EdgeComponent({
       }}
     >
       {name}
-    </div>
+    </td>
   );
 }
 
@@ -154,7 +145,7 @@ function dataCellReactElement(pointInDataSpace: IPointObject) {
     ["giving", countriesThatGiveScore[pointInDataSpace.x]]
   ]);
   return (
-    <div
+    <td
       data-key={`data-cell-${pointInDataSpace.x}-${pointInDataSpace.y}`}
       key={`data-cell-${pointInDataSpace.x}-${pointInDataSpace.y}`}
       className={classNames(style.regularCell, {
@@ -165,11 +156,9 @@ function dataCellReactElement(pointInDataSpace: IPointObject) {
       })}
     >
       {dataCell.value}
-    </div>
+    </td>
   );
 }
-
-export const EurovisionTableHot = hot(EurovisionTable);
 
 function getClassnamesForPoint(pointInGlobalSpace: IPointObject): string {
   if (isNorthWest(pointInGlobalSpace)) {

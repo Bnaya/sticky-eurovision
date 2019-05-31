@@ -1,8 +1,9 @@
 import React from "react";
 import appStyles from "./App.module.css";
-import { Link, Router, RouteComponentProps } from "@reach/router";
+import { Link, Router, RouteComponentProps, Redirect } from "@reach/router";
 import { hot } from "react-hot-loader/root";
-import { EurovisionTable } from "./EurovisionTable/EurovisionTable";
+import { FullyStickyTable } from "./implementations/FullyStickyTable/FullyStickyTable";
+import { SimpleTable } from "./implementations/SimpleTable/SimpleTable";
 
 const App: React.FC = () => {
   return (
@@ -10,7 +11,9 @@ const App: React.FC = () => {
       <nav className={appStyles.nav}>
         <ul>
           <li>
-            <Link to="no-frozen-rows-columns">No Frozen Rows Columns</Link>
+            <Link to="/simple-table">
+              Simple Table - No Frozen Rows Columns
+            </Link>
           </li>
           <li>
             <Link to="/sticky-inline-block">
@@ -38,8 +41,10 @@ const App: React.FC = () => {
         </ul>
       </nav>
       <Router className={appStyles.content}>
+        <Redirect from="/" to="/simple-table" noThrow={true} />
+        <RouterPage routeComponent={SimpleTable} path="/simple-table" />
         <RouterPage
-          routeComponent={EurovisionTable}
+          routeComponent={FullyStickyTable}
           path="/sticky-inline-block"
         />
       </Router>
