@@ -1,4 +1,10 @@
-import { Group, IPointObject, IPointTuple } from "./interfaces";
+import {
+  Group,
+  IPointObject,
+  IPointTuple,
+  IPointObjectInGlobalSpace,
+  IPointObjectInDataSpace
+} from "./interfaces";
 import { staticDataTyped } from "./staticDataTyped";
 
 export function getCellForGroup(group: Group) {
@@ -41,8 +47,11 @@ export function toDataPointSpace(
   return [x - 1, y - 1, columnsCount - 2, rowsCount - 2];
 }
 
-export function toDataObjectPointSpace(point: IPointObject): IPointObject {
+export function toDataObjectPointSpace(
+  point: IPointObjectInGlobalSpace
+): IPointObjectInDataSpace {
   return {
+    space: "data",
     x: point.x - 1,
     y: point.y - 1,
     columnsCount: point.columnsCount - 2,
@@ -91,11 +100,24 @@ export function isEdgeComponent(point: IPointObject) {
   );
 }
 
-export function isCornerCell(point: IPointObject) {
-  return (
-    isNorthWest(point) ||
-    isNorthEast(point) ||
-    isSouthWest(point) ||
-    isSouthEast(point)
-  );
+export function isCornerCell(
+  point: IPointObject
+): "topLeft" | "topRight" | "bottomLeft" | "bottomRight" | false {
+  if (isNorthWest(point)) {
+    return "topLeft";
+  }
+
+  if (isNorthEast(point)) {
+    return "topRight";
+  }
+
+  if (isSouthWest(point)) {
+    return "bottomLeft";
+  }
+
+  if (isSouthEast(point)) {
+    return "bottomRight";
+  }
+
+  return false;
 }

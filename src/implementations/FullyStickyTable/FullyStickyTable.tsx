@@ -1,5 +1,5 @@
 import React, { CSSProperties } from "react";
-import { IPointObject } from "../common/interfaces";
+import { IPointObject, IPointObjectInGlobalSpace } from "../common/interfaces";
 import style from "./FullyStickyTable.module.css";
 import {
   countriesTheFinal,
@@ -54,6 +54,7 @@ function renderCells() {
     for (let columnIndex = 0; columnIndex < columnsCount; columnIndex++) {
       rowCells.push(
         cellReactElement({
+          space: "global",
           x: columnIndex,
           y: rowIndex,
           columnsCount,
@@ -80,7 +81,7 @@ function renderCells() {
   return toReturn;
 }
 
-function cellReactElement(point: IPointObject) {
+function cellReactElement(point: IPointObjectInGlobalSpace) {
   const className = getClassnamesForPoint(point);
 
   if (isCornerCell(point)) {
@@ -92,7 +93,7 @@ function cellReactElement(point: IPointObject) {
   const pointInDataCellsSpace = toDataObjectPointSpace(point);
 
   if (isRowEnder(point) || isRowStarter(point)) {
-    const isoCode = countriesTheFinal[pointInDataCellsSpace.y];
+    const isoCode = countriesTheFinal[point.y];
     return (
       <EdgeComponent
         key={`${point.x}-${point.x}`}

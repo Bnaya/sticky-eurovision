@@ -1,0 +1,113 @@
+.rowWrapper {
+}
+
+.firstRowWrapper {
+}
+
+.lastRowWrapper {
+}
+
+.baseCell {
+  width: 100px;
+  min-width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  text-align: center;
+  text-shadow: #fc0 1px 0 10px;
+  scroll-snap-align: start;
+}
+
+.baseHeaderFooterStarterEnder {
+  width: 100px;
+  height: 100px;
+  composes: baseCell;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.baseCornerCell {
+  composes: baseCell;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 3;
+}
+
+// .baseCornerCell::before {
+//   display: block;
+//   content: "Score To:";
+//   position: absolute;
+//   transform: rotate(90deg);
+//   transform-origin: bottom left;
+// }
+
+// .baseCornerCell::after {
+//   display: block;
+//   content: "Score By:";
+//   right: 2px;
+//   position: absolute;
+// }
+
+.cellInLeftTopCorner {
+  composes: baseCornerCell;
+}
+
+.cellInRightTopCorner {
+  composes: baseCornerCell;
+}
+
+.cellInLeftBottomCorner {
+  composes: baseCornerCell;
+}
+
+.cellInRightBottomCorner {
+  composes: baseCornerCell;
+}
+
+.cellInRightBottomCorner::before,
+.cellInLeftBottomCorner::before {
+  transform-origin: top left;
+  transform: rotate(-90deg);
+}
+
+.cellInFirstRow {
+  composes: baseHeaderFooterStarterEnder;
+}
+
+.cellInLastRow {
+  composes: baseHeaderFooterStarterEnder;
+}
+
+.cellInFirstColumn {
+  composes: baseHeaderFooterStarterEnder;
+}
+
+.cellInLastColumn {
+  composes: baseHeaderFooterStarterEnder;
+}
+
+.regularCell {
+  composes: baseCell;
+  font-size: 25px;
+}
+
+.regularCell.oddRow.oddColumn {
+  background-color: blue;
+}
+
+.regularCell.evenRow.evenColumn {
+  background-color: blueviolet;
+}
+
+.oddRow {
+}
+
+.evenRow {
+}
+
+.oddColumn {
+}
+
+.evenColumn {
+}
