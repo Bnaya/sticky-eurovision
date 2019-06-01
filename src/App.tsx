@@ -57,13 +57,18 @@ const App: React.FC = () => {
                 target="for-external-links"
                 rel="noopener noreferrer"
               >
-                The Sad Issue :(
+                The fork-related issue
               </a>
             </li>
           </ul>
         </nav>
         <Router className={appStyles.content}>
-          <Redirect path="/" from="/" to="/simple-table" noThrow={true} />
+          <Redirect
+            path="/"
+            from="/"
+            to="/with-react-window-and-sticky-shlif"
+            noThrow={true}
+          />
           <RouterPage routeComponent={SimpleTable} path="/simple-table" />
           <RouterPage
             routeComponent={StickyWithInlineBlock}
