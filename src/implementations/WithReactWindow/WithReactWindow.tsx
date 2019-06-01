@@ -33,14 +33,15 @@ export function WithReactWindow() {
         rowCount={countriesInTheFinal.length + 2}
         rowHeight={100}
         width={rect.width}
+        overscanCount={0}
       >
-        {Cell}
+        {GridCell}
       </FixedSizeGrid>
     </div>
   );
 }
 
-const Cell: React.ComponentType<GridChildComponentProps> = props => {
+const GridCell = React.memo(function GridCell(props: GridChildComponentProps) {
   const plotData = useDataPlot();
   const pointInGlobalSpace: IPointObjectInGlobalSpace = {
     space: "global",
@@ -54,4 +55,4 @@ const Cell: React.ComponentType<GridChildComponentProps> = props => {
       <CellVisualComponentChooser {...pointInGlobalSpace} />
     </div>
   );
-};
+});

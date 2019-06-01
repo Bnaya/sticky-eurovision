@@ -83,7 +83,7 @@ export function keyProvider(point: IPointObjectInGlobalSpace) {
 }
 
 export const CellVisualComponentChooser = React.memo(
-  (point: IPointObjectInGlobalSpace) => {
+  function CellVisualComponentChooser(point: IPointObjectInGlobalSpace) {
     const maybeTheCorner = isCornerCell(point);
     const pointInDataCellsSpace = toDataObjectPointSpace(point);
 
@@ -113,7 +113,7 @@ export const CellVisualComponentChooser = React.memo(
   }
 );
 
-export function CornerComponent({
+export const CornerComponent = React.memo(function CornerComponent({
   corner
 }: {
   corner: "topLeft" | "topRight" | "bottomLeft" | "bottomRight";
@@ -128,76 +128,74 @@ export function CornerComponent({
       })}
     />
   );
-}
+});
 
-export const EdgeComponent = React.memo(
-  ({
-    side,
-    rowOrColumnIndex
-  }: {
-    side: "top" | "right" | "bottom" | "left";
-    rowOrColumnIndex: number;
-  }) => {
-    const {
-      countriesInTheFinal,
-      countriesGivingScore,
-      toggleSortGivingByReceiver,
-      toggleSortReceivingByGiver
-    } = useDataPlot();
+export const EdgeComponent = React.memo(function EdgeComponent({
+  side,
+  rowOrColumnIndex
+}: {
+  side: "top" | "right" | "bottom" | "left";
+  rowOrColumnIndex: number;
+}) {
+  const {
+    countriesInTheFinal,
+    countriesGivingScore,
+    toggleSortGivingByReceiver,
+    toggleSortReceivingByGiver
+  } = useDataPlot();
 
-    const effectiveList =
-      side === "top" || side === "bottom"
-        ? countriesGivingScore
-        : countriesInTheFinal;
-    const isoCode = effectiveList[rowOrColumnIndex];
-    const name = isoCodeToName[isoCode];
+  const effectiveList =
+    side === "top" || side === "bottom"
+      ? countriesGivingScore
+      : countriesInTheFinal;
+  const isoCode = effectiveList[rowOrColumnIndex];
+  const name = isoCodeToName[isoCode];
 
-    const onClick = useCallback(() => {
-      if (side === "top" || side === "bottom") {
-        toggleSortReceivingByGiver(isoCode);
-      } else {
-        toggleSortGivingByReceiver(isoCode);
-      }
-    }, [isoCode, side, toggleSortGivingByReceiver, toggleSortReceivingByGiver]);
+  const onClick = useCallback(() => {
+    if (side === "top" || side === "bottom") {
+      toggleSortReceivingByGiver(isoCode);
+    } else {
+      toggleSortGivingByReceiver(isoCode);
+    }
+  }, [isoCode, side, toggleSortGivingByReceiver, toggleSortReceivingByGiver]);
 
-    return (
-      <div
-        title={name}
-        className={classNames({
-          [style.cellInFirstRow]: side === "top",
-          [style.cellInLastRow]: side === "bottom",
-          [style.cellInFirstColumn]: side === "left",
-          [style.cellInLastColumn]: side === "right"
-        })}
-        style={{
-          backgroundImage: `url(https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/${isoCode}.svg)`
-        }}
-        onClick={onClick}
-      >
-        {name}
-      </div>
-    );
-  }
-);
+  return (
+    <div
+      title={name}
+      className={classNames({
+        [style.cellInFirstRow]: side === "top",
+        [style.cellInLastRow]: side === "bottom",
+        [style.cellInFirstColumn]: side === "left",
+        [style.cellInLastColumn]: side === "right"
+      })}
+      style={{
+        backgroundImage: `url(https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/${isoCode}.svg)`
+      }}
+      onClick={onClick}
+    >
+      {name}
+    </div>
+  );
+});
 
-export const DataCellComponent = React.memo(
-  (pointInDataSpace: IPointObjectInDataSpace) => {
-    const dataCell = useCellData(pointInDataSpace.x, pointInDataSpace.y);
-    // const key = `${dataCell.group[0][1]}-${dataCell.group[1][1]}`;
-    return (
-      <div
-        className={classNames(style.regularCell, {
-          [style.oddRow]: pointInDataSpace.y % 2 > 0,
-          [style.evenRow]: pointInDataSpace.y % 2 === 0,
-          [style.oddColumn]: pointInDataSpace.x % 2 > 0,
-          [style.evenColumn]: pointInDataSpace.x % 2 === 0
-        })}
-      >
-        {dataCell.value}
-      </div>
-    );
-  }
-);
+export const DataCellComponent = React.memo(function DataCellComponent(
+  pointInDataSpace: IPointObjectInDataSpace
+) {
+  const dataCell = useCellData(pointInDataSpace.x, pointInDataSpace.y);
+  // const key = `${dataCell.group[0][1]}-${dataCell.group[1][1]}`;
+  return (
+    <div
+      className={classNames(style.regularCell, {
+        [style.oddRow]: pointInDataSpace.y % 2 > 0,
+        [style.evenRow]: pointInDataSpace.y % 2 === 0,
+        [style.oddColumn]: pointInDataSpace.x % 2 > 0,
+        [style.evenColumn]: pointInDataSpace.x % 2 === 0
+      })}
+    >
+      {dataCell.value}
+    </div>
+  );
+});
 
 export function getSpecialSlugForPoint(
   pointInGlobalSpace: IPointObject
