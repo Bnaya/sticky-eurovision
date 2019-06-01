@@ -50,7 +50,7 @@
     "node-sass": "^4.12.0",
     "yarn-deduplicate": "^1.1.1"
   },
-  "resolutions": {
+  "_resolutions": {
     "babel-preset-react-app": "npm:babel-preset-react-app-with-rhl",
     "react-dom": "npm:@hot-loader/react-dom"
   }
