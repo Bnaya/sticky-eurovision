@@ -1,3 +1,50 @@
+## Sticky Eurovision: Technology Demonstrator for css sticky, dom virtualization, and react hooks.
+
+Contains 4 different implementations of a scrollable table showing Eurovision 2019 Grand Final results.
+
+Some of them including "Frozen" (spreadsheet-like) header-footer-starter-ender, implemented without javascript, but CSS sticky only!
+
+I hope the different implementations will help understand better the topics separately. (As they did for me)
+
+The most interesting one is [WithReactWindowAndSticky](./src/implementations/WithReactWindowAndSticky/WithReactWindowAndSticky.ts), which is a sophisticated combination of react-window (well a slightly patched version ATM) CSS grid layout, and CSS sticky.
+
+There is no React magic - It can be implemented in a similar manner with any FW/vanilla code.
+
+I chose hard-coded cell size of 100x100 cell for simplicity,
+But i don't see any blocker to implement it with even variable rows/columns, and multiple frozen rows/columns.  
+I will probably add a variant with ability to remove rows/columns.
+
+### Why CSS sticky is a thing?
+
+**It's our only!**(?\*) api to tell the browser that the scrolling and positioning of an element should be synced in a way:
+
+- The browser can optimize it in the rendering pipeline
+- Scrolling happens in the compositor (or close to it in the pipeline),  
+  And only _after_ the scroll have happened, scroll handlers are called. that's why syncing scrollable areas using js always feels bad. Even if your scroll handler is super slim.
+- Minimal code - When you figure out the layout - you just add it
+
+[*] Until [houdini animationworklet](https://drafts.css-houdini.org/css-animationworklet/) are available and widely supported
+
+### Some other similar solutions: (NEED TO WRITE MORE INFO)
+
+- If you have only frozen r
+
+### And a personal note: I have failed few times before
+
+The code might look now simple and clear, But it took me many mistakes, frustrations and iterations to bring it to this state, But i'm sure it can get even better!
+
+# I will be happy for any feedback!
+
+## Browsers support (Should be, and somewhat tested on):
+
+- Edge >= 16
+- And all rest :)
+
+Scrollsnap included ;)  
+PS: i'm using yarn here.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
