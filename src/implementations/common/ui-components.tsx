@@ -141,7 +141,9 @@ export const EdgeComponent = React.memo(function EdgeComponent({
     countriesInTheFinal,
     countriesGivingScore,
     toggleSortGivingByReceiver,
-    toggleSortReceivingByGiver
+    toggleSortReceivingByGiver,
+    sortGivingByReceiver,
+    sortReceivingByGiver
   } = useDataPlot();
 
   const effectiveList =
@@ -166,7 +168,29 @@ export const EdgeComponent = React.memo(function EdgeComponent({
         [style.cellInFirstRow]: side === "top",
         [style.cellInLastRow]: side === "bottom",
         [style.cellInFirstColumn]: side === "left",
-        [style.cellInLastColumn]: side === "right"
+        [style.cellInLastColumn]: side === "right",
+        [style.sort_active]:
+          sortReceivingByGiver && sortReceivingByGiver.country === isoCode,
+        [style.sort_givingAsc]:
+          side === "top" &&
+          sortReceivingByGiver &&
+          sortReceivingByGiver.country === isoCode &&
+          sortReceivingByGiver.direction === "asc",
+        [style.sort_givingDesc]:
+          side === "top" &&
+          sortReceivingByGiver &&
+          sortReceivingByGiver.country === isoCode &&
+          sortReceivingByGiver.direction === "desc",
+        [style.sort_receivingAsc]:
+          side === "left" &&
+          sortGivingByReceiver &&
+          sortGivingByReceiver.country === isoCode &&
+          sortGivingByReceiver.direction === "asc",
+        [style.sort_receivingDesc]:
+          side === "left" &&
+          sortGivingByReceiver &&
+          sortGivingByReceiver.country === isoCode &&
+          sortGivingByReceiver.direction === "desc"
       })}
       style={{
         backgroundImage: `url(https://cdn.rawgit.com/hjnilsson/country-flags/master/svg/${isoCode}.svg)`

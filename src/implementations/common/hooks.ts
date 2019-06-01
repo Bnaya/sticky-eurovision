@@ -7,7 +7,7 @@ import {
   MutableRefObject,
   useEffect
 } from "react";
-import { CountryCode } from "./interfaces";
+import { CountryCode, ISortState } from "./interfaces";
 import {
   countriesTheFinal,
   countriesThatGiveScore,
@@ -58,14 +58,12 @@ export function useDataPlot() {
 }
 
 export function useSingletonDataPlot() {
-  const [sortGivingByReceiver, setSortGivingByReceiver] = useState<{
-    direction: "asc" | "desc";
-    country: CountryCode;
-  }>();
-  const [sortReceivingByGiver, setSortReceivingByGiver] = useState<{
-    direction: "asc" | "desc";
-    country: CountryCode;
-  }>();
+  const [sortGivingByReceiver, setSortGivingByReceiver] = useState<
+    ISortState
+  >();
+  const [sortReceivingByGiver, setSortReceivingByGiver] = useState<
+    ISortState
+  >();
 
   const countriesInTheFinal = useMemo(() => {
     if (sortReceivingByGiver) {
@@ -169,7 +167,9 @@ export function useSingletonDataPlot() {
     toggleSortGivingByReceiver,
     toggleSortReceivingByGiver,
     countriesInTheFinal,
-    countriesGivingScore
+    countriesGivingScore,
+    sortGivingByReceiver,
+    sortReceivingByGiver
   };
 }
 

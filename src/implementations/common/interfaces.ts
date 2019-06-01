@@ -55,3 +55,8 @@ export interface IPointObjectInGlobalSpace extends IPointObject {
 export interface IPointObjectInDataSpace extends IPointObject {
   space: "data";
 }
+
+export interface ISortState {
+  direction: "asc" | "desc";
+  country: CountryCode;
+}

@@ -29,6 +29,9 @@
   background-color: #fff;
 }
 
+.baseHeaderFooterStarterEnder {
+}
+
 .baseCornerCell {
   composes: baseCell;
   background-color: rgba(255, 255, 255, 1);
@@ -94,7 +97,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // transition: background-color 3s;
+  box-shadow: inset 0px 0px 0px #000;
+  transition: box-shadow 300ms;
+}
+
+.regularCell:hover {
+  box-shadow: inset 0px 0px 10px #000;
 }
 
 .regularCell.oddRow.oddColumn {
@@ -115,4 +123,51 @@
 }
 
 .evenColumn {
+}
+
+.cellInFirstRow,
+.cellInFirstColumn {
+  &::after {
+    content: "➡️";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+    transform: rotate(0deg);
+    transform-origin: center center;
+  }
+
+  &.sort_givingAsc::after {
+    opacity: 1;
+    transform: rotate(90deg);
+  }
+
+  &.sort_givingDesc::after {
+    opacity: 1;
+    transform: rotate(-90deg);
+  }
+
+  &.sort_receivingAsc::after {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+  &.sort_receivingDesc::after {
+    opacity: 1;
+    transform: rotate(180deg);
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.cellInFirstRow::after {
+  transform: rotate(90deg);
 }

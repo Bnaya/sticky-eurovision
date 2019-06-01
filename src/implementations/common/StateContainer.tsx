@@ -1,5 +1,6 @@
 import React from "react";
 import { useSingletonDataPlot } from "./hooks";
+import { ISortState } from "./interfaces";
 
 export const StateContainerContext = React.createContext<
   | {
@@ -7,6 +8,8 @@ export const StateContainerContext = React.createContext<
       toggleSortReceivingByGiver: (givingCounter: string) => void;
       countriesInTheFinal: string[];
       countriesGivingScore: string[];
+      sortGivingByReceiver: ISortState | undefined;
+      sortReceivingByGiver: ISortState | undefined;
     }
   | undefined
 >(undefined);
