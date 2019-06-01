@@ -90,6 +90,9 @@
 .regularCell {
   composes: baseCell;
   font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   // transition: background-color 3s;
 }
 
