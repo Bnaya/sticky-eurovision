@@ -63,7 +63,7 @@ const App: React.FC = () => {
           </ul>
         </nav>
         <Router className={appStyles.content}>
-          <Redirect from="/" to="/simple-table" noThrow={true} />
+          <Redirect path="/" from="/" to="/simple-table" noThrow={true} />
           <RouterPage routeComponent={SimpleTable} path="/simple-table" />
           <RouterPage
             routeComponent={StickyWithInlineBlock}
