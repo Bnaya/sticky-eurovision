@@ -57,7 +57,7 @@ const App: React.FC = () => {
                 target="for-external-links"
                 rel="noopener noreferrer"
               >
-                The Sad Issue :(
+                The fork-related issue
               </a>
             </li>
           </ul>
