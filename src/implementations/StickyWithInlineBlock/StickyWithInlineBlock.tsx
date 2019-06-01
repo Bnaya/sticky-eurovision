@@ -1,6 +1,6 @@
 import React, { CSSProperties } from "react";
 import { IPointObject, IPointObjectInGlobalSpace } from "../common/interfaces";
-import style from "./FullyStickyTable.module.css";
+import style from "./StickyWithInlineBlock.module.css";
 import {
   countriesTheFinal,
   isoCodeToName,
@@ -25,7 +25,7 @@ import {
 } from "../common/utils";
 import classNames from "classnames";
 
-export function FullyStickyTable() {
+export function StickyWithInlineBlock() {
   return (
     <div className={style.wrapper}>
       <div
