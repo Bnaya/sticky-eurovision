@@ -782,14 +782,6 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@brandtotal/react-window@^1.8.1-bt":
-  version "1.8.1-bt"
-  resolved "https://registry.npmjs.org/@brandtotal/react-window/-/react-window-1.8.1-bt.tgz#a8830a6c3836442cc7bcbbb7f42f1ad656658c05"
-  integrity sha512-1q4Ou9DaTHzBNoD5s1VsAoIBuHiylg3PMFnZmuKC4XnNSl4+UoxlIXTabajtszh6i+B+fHRiAeo8hcdvK6Agtw==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    memoize-one ">=3.1.1 <6"
-
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.npmjs.org/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -9177,6 +9169,14 @@ stealthy-require@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
+
+sticky-react-window@^1.8.1-sticky:
+  version "1.8.1-sticky"
+  resolved "https://registry.npmjs.org/sticky-react-window/-/sticky-react-window-1.8.1-sticky.tgz#243c33e6029ca5b1e0b8679e1d6430e952649b9c"
+  integrity sha512-a+QhtSFmMUGTLFM6o6bdxn1V/aFQJab3bcoHxhs40esjEOdnqBo0oBFd49KGhzTUGE2MeXe1VgL+KiW/GCbjrw==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    memoize-one ">=3.1.1 <6"
 
 stream-browserify@^2.0.1:
   version "2.0.2"

@@ -4,7 +4,7 @@ import { CellVisualComponentChooser } from "../common/ui-components";
 import { IPointObjectInGlobalSpace } from "../common/interfaces";
 
 // @ts-ignore
-import { FixedSizeGrid as FixedSizeGridWithoutTypes } from "@brandtotal/react-window";
+import { FixedSizeGrid as FixedSizeGridWithoutTypes } from "sticky-react-window";
 const FixedSizeGrid: typeof import("react-window").FixedSizeGrid = FixedSizeGridWithoutTypes;
 
 export function WithReactWindow() {

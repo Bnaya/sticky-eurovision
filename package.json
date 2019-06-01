@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@brandtotal/react-window": "^1.8.1-bt",
     "@reach/router": "^1.2.1",
     "@types/jest": "24.0.13",
     "@types/node": "12.0.2",
@@ -14,6 +13,7 @@
     "react-dom": "^16.8.6",
     "react-hot-loader": "^4.8.8",
     "react-scripts": "3.0.1",
+    "sticky-react-window": "^1.8.1-sticky",
     "typescript": "3.5.1"
   },
   "scripts": {
@@ -50,7 +50,7 @@
     "node-sass": "^4.12.0",
     "yarn-deduplicate": "^1.1.1"
   },
-  "_resolutions": {
+  "resolutions": {
     "babel-preset-react-app": "npm:babel-preset-react-app-with-rhl",
     "react-dom": "npm:@hot-loader/react-dom"
   }

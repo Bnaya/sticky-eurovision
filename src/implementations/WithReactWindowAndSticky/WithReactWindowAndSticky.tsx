@@ -8,7 +8,7 @@ import {
 import { IPointObjectInGlobalSpace } from "../common/interfaces";
 
 // @ts-ignore
-import { FixedSizeGrid as FixedSizeGridWithoutTypes } from "@brandtotal/react-window";
+import { FixedSizeGrid as FixedSizeGridWithoutTypes } from "sticky-react-window";
 
 import classNames from "classnames";
 const FixedSizeGrid: typeof import("react-window").FixedSizeGrid = FixedSizeGridWithoutTypes;
