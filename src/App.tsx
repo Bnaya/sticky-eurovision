@@ -1,13 +1,13 @@
 /* eslint-disable import/first */
 
 // make online editors happy
-let rhlRoot = (comp: any) => comp;
+// let rhlRoot = (comp: any) => comp;
 
-try {
-  rhlRoot = require("react-hot-loader/root").hot;
-} catch (e) {
-  console.warn("failed to use HMR?", e);
-}
+// try {
+//   rhlRoot = require("react-hot-loader/root").hot;
+// } catch (e) {
+//   console.warn("failed to use HMR?", e);
+// }
 
 import React from "react";
 import appStyles from "./App.module.css";
@@ -87,6 +87,6 @@ const RouterPage = (
   props: { routeComponent: React.ComponentType<any> } & RouteComponentProps
 ) => <props.routeComponent />;
 
-const HotApp: React.ComponentType<any> = rhlRoot(App);
+// const HotApp: React.ComponentType<any> = rhlRoot(App);
 
-export { HotApp };
+export { App };
