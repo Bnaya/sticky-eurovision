@@ -4,6 +4,10 @@ Contains 4 different implementations of a scrollable table showing Eurovision 20
 
 <img src="./src/demo2.gif" width="200" alt="Demo animated gif" />
 
+<iframe src="https://codesandbox.io/embed/github/Bnaya/sticky-eurovision/tree/master/?fontsize=14" title="sticky-row-column-without-javascript" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+
+[![Edit sticky-row-column-without-javascript](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Bnaya/sticky-eurovision/tree/master/?fontsize=14)
+
 Some of them including "Frozen" (spreadsheet-like) header-footer-starter-ender, implemented without javascript, but CSS sticky only!
 
 I hope the different implementations will help understand better the topics separately. (As they did for me)
