@@ -1,0 +1,66 @@
+.scrollablePart {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: relative;
+  scroll-snap-type: both mandatory;
+}
+
+.grid {
+  border-collapse: collapse;
+
+  td {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.activateStickiness {
+  .firstRowWrapper > td {
+    position: sticky;
+    top: 0;
+  }
+
+  .lastRowWrapper > td {
+    position: sticky;
+    bottom: 0;
+  }
+
+  td.cellInFirstColumn {
+    position: sticky;
+    left: 0;
+  }
+
+  td.cellInLastColumn {
+    position: sticky;
+    right: 0;
+  }
+
+  .cellInLeftTopCorner {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .cellInRightTopCorner {
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .cellInLeftBottomCorner {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+
+  .cellInRightBottomCorner {
+    position: sticky;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+}

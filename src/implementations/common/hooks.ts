@@ -1,4 +1,13 @@
-import { useState, useMemo, useCallback, useContext } from "react";
+import {
+  useState,
+  useMemo,
+  useCallback,
+  useContext,
+  Ref,
+  useLayoutEffect,
+  MutableRefObject,
+  useEffect
+} from "react";
 import { CountryCode } from "./interfaces";
 import { countriesTheFinal, countriesThatGiveScore } from "./countriesList";
 import { getCellForGroup } from "./utils";
@@ -155,4 +164,86 @@ export function useSingletonDataPlot() {
     countriesInTheFinal,
     countriesGivingScore
   };
+}
+
+export function useBoundingClientRect(
+  elementRef: MutableRefObject<HTMLElement | null>
+) {
+  const [rect, setRect] = useState<ClientRect | DOMRect>();
+  const windowSize = useWindowSize(window);
+
+  useLayoutEffect(() => {
+    if (elementRef.current) {
+      const { current } = elementRef;
+      setRect(currentRect => {
+        const newRect = current.getBoundingClientRect();
+        if (!currentRect || !compareRects(currentRect, newRect)) {
+          return newRect;
+        }
+
+        return currentRect;
+      });
+    } else {
+      setRect(undefined);
+    }
+  }, [elementRef, windowSize.innerWidth, windowSize.innerHeight]);
+
+  return rect;
+}
+
+interface IWindowSize {
+  innerWidth: number;
+  innerHeight: number;
+  outerWidth: number;
+  outerHeight: number;
+}
+
+export function useWindowSize(localWindow: Window): IWindowSize {
+  // improve pref here?
+  const [size, setSize] = useState<IWindowSize>(windowToSize(localWindow));
+
+  useEffect(() => {
+    function onResize() {
+      setSize(windowToSize(localWindow));
+    }
+
+    localWindow.addEventListener("resize", onResize);
+
+    return function cleanup() {
+      localWindow.removeEventListener("resize", onResize);
+    };
+  }, [localWindow]);
+
+  return size;
+}
+
+function windowToSize({
+  outerHeight,
+  outerWidth,
+  innerHeight,
+  innerWidth
+}: Window): IWindowSize {
+  return { outerHeight, outerWidth, innerHeight, innerWidth };
+}
+
+function compareRects(
+  rectA: ClientRect | DOMRect,
+  rectB: ClientRect | DOMRect
+) {
+  const propsToCompare: Array<keyof (ClientRect | DOMRect)> = [
+    "bottom",
+    "height",
+    "left",
+    "right",
+    "top",
+    "width"
+  ];
+
+  for (const prop of propsToCompare) {
+    if (rectA[prop] !== rectB[prop]) {
+      return false;
+    }
+  }
+
+  return true;
 }

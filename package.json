@@ -13,6 +13,7 @@
     "react-dom": "npm:@hot-loader/react-dom",
     "react-hot-loader": "^4.8.8",
     "react-scripts": "3.0.1",
+    "react-window": "npm:@brandtotal/react-window:react-window",
     "typescript": "3.5.1"
   },
   "scripts": {
@@ -40,6 +41,7 @@
   "devDependencies": {
     "@types/classnames": "^2.2.8",
     "@types/reach__router": "^1.2.4",
+    "@types/react-window": "^1.8.0",
     "node-sass": "^4.12.0",
     "yarn-deduplicate": "^1.1.1"
   },

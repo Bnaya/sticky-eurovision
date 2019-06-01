@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useRef } from "react";
 import style from "./SimpleTable.module.scss";
 import classNames from "classnames";
-import { useDataPlot } from "../common/hooks";
+import { useDataPlot, useBoundingClientRect } from "../common/hooks";
 import {
   CellVisualComponentChooser,
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

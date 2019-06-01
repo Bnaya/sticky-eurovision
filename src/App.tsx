@@ -5,6 +5,7 @@ import { hot } from "react-hot-loader/root";
 import { FullyStickyTable } from "./implementations/FullyStickyTable/FullyStickyTable";
 import { SimpleTable } from "./implementations/SimpleTable/SimpleTable";
 import { StateContainer } from "./implementations/common/StateContainer";
+import { WithReactWindow } from "./implementations/WithReactWindow/WithReactWindow";
 
 const App: React.FC = () => {
   return (
@@ -21,6 +22,9 @@ const App: React.FC = () => {
               <Link to="/sticky-inline-block">
                 Using sticky + inline block layout
               </Link>
+            </li>
+            <li>
+              <Link to="/with-react-window">With react-window</Link>
             </li>
             <li>
               <a
@@ -48,6 +52,10 @@ const App: React.FC = () => {
           <RouterPage
             routeComponent={FullyStickyTable}
             path="/sticky-inline-block"
+          />
+          <RouterPage
+            routeComponent={WithReactWindow}
+            path="/with-react-window"
           />
         </Router>
       </div>
