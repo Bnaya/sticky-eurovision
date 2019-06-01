@@ -1,7 +1,17 @@
+/* eslint-disable import/first */
+
+// make online editors happy
+let rhlRoot = (comp: any) => comp;
+
+try {
+  rhlRoot = require("react-hot-loader/root").hot;
+} catch (e) {
+  console.warn("failed to use HMR?", e);
+}
+
 import React from "react";
 import appStyles from "./App.module.css";
 import { Link, Router, RouteComponentProps, Redirect } from "@reach/router";
-import { hot } from "react-hot-loader/root";
 import { StickyWithInlineBlock } from "./implementations/StickyWithInlineBlock/StickyWithInlineBlock";
 import { SimpleTable } from "./implementations/SimpleTable/SimpleTable";
 import { StateContainer } from "./implementations/common/StateContainer";
@@ -77,6 +87,6 @@ const RouterPage = (
   props: { routeComponent: React.ComponentType<any> } & RouteComponentProps
 ) => <props.routeComponent />;
 
-const HotApp: React.ComponentType<any> = hot(App);
+const HotApp: React.ComponentType<any> = rhlRoot(App);
 
 export { HotApp };
