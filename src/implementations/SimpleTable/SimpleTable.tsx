@@ -4,8 +4,11 @@ import classNames from "classnames";
 import { useDataPlot } from "../common/hooks";
 import {
   CellVisualComponentChooser,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   keyProvider,
-  getSpecialSlugForPoint
+  getSpecialSlugForPoint,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  keyProviderDataAware
 } from "../common/ui-components";
 import { IPointObjectInGlobalSpace } from "../common/interfaces";
 
@@ -43,6 +46,14 @@ function RenderCells() {
       };
 
       const key = keyProvider(point);
+
+      // Actually very slow.
+      // const key = keyProviderDataAware(
+      //   point,
+      //   countriesInTheFinal,
+      //   countriesGivingScore
+      // );
+
       rowCells.push(
         <td
           key={key}

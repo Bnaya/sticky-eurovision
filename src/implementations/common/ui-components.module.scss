@@ -90,6 +90,7 @@
 .regularCell {
   composes: baseCell;
   font-size: 25px;
+  // transition: background-color 3s;
 }
 
 .regularCell.oddRow.oddColumn {
