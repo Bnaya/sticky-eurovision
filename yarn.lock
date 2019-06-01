@@ -782,6 +782,14 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@brandtotal/react-window@^1.8.1-bt":
+  version "1.8.1-bt"
+  resolved "https://registry.npmjs.org/@brandtotal/react-window/-/react-window-1.8.1-bt.tgz#a8830a6c3836442cc7bcbbb7f42f1ad656658c05"
+  integrity sha512-1q4Ou9DaTHzBNoD5s1VsAoIBuHiylg3PMFnZmuKC4XnNSl4+UoxlIXTabajtszh6i+B+fHRiAeo8hcdvK6Agtw==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    memoize-one ">=3.1.1 <6"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.npmjs.org/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -8233,14 +8241,6 @@ react-scripts@3.0.1:
     workbox-webpack-plugin "4.2.0"
   optionalDependencies:
     fsevents "2.0.6"
-
-"react-window@npm:@brandtotal/react-window":
-  version "1.8.1-bt"
-  resolved "https://registry.npmjs.org/@brandtotal/react-window/-/react-window-1.8.1-bt.tgz#a8830a6c3836442cc7bcbbb7f42f1ad656658c05"
-  integrity sha512-1q4Ou9DaTHzBNoD5s1VsAoIBuHiylg3PMFnZmuKC4XnNSl4+UoxlIXTabajtszh6i+B+fHRiAeo8hcdvK6Agtw==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    memoize-one ">=3.1.1 <6"
 
 react@^16.8.6:
   version "16.8.6"

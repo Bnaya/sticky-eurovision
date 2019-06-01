@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Sticky Eurovision",
+  "name": "Eurovision 2019 finals score board, and the power of sticky",
   "icons": [
     {
       "src": "favicon.ico",

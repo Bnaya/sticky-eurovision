@@ -7,8 +7,11 @@ import {
 } from "../common/ui-components";
 import { IPointObjectInGlobalSpace } from "../common/interfaces";
 
-import { FixedSizeGrid, GridChildComponentProps } from "react-window";
+// @ts-ignore
+import { FixedSizeGrid as FixedSizeGridWithoutTypes } from "@brandtotal/react-window";
+
 import classNames from "classnames";
+const FixedSizeGrid: typeof import("react-window").FixedSizeGrid = FixedSizeGridWithoutTypes;
 
 export function WithReactWindowAndSticky() {
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -83,7 +86,7 @@ function itemKeyProvider(item: {
 }
 
 const GridCell = function GridCell(
-  props: GridChildComponentProps & {
+  props: import("react-window").GridChildComponentProps & {
     itemsRenderedCallbackParams?: ItemsRenderedCallbackParams;
   }
 ) {

@@ -2,7 +2,10 @@ import React, { useRef } from "react";
 import { useDataPlot, useBoundingClientRect } from "../common/hooks";
 import { CellVisualComponentChooser } from "../common/ui-components";
 import { IPointObjectInGlobalSpace } from "../common/interfaces";
-import { FixedSizeGrid, GridChildComponentProps } from "react-window";
+
+// @ts-ignore
+import { FixedSizeGrid as FixedSizeGridWithoutTypes } from "@brandtotal/react-window";
+const FixedSizeGrid: typeof import("react-window").FixedSizeGrid = FixedSizeGridWithoutTypes;
 
 export function WithReactWindow() {
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -31,7 +34,9 @@ export function WithReactWindow() {
   );
 }
 
-const GridCell = React.memo(function GridCell(props: GridChildComponentProps) {
+const GridCell = React.memo(function GridCell(
+  props: import("react-window").GridChildComponentProps
+) {
   const plotData = useDataPlot();
   const pointInGlobalSpace: IPointObjectInGlobalSpace = {
     space: "global",
