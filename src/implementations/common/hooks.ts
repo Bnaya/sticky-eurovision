@@ -9,7 +9,11 @@ import {
   useEffect
 } from "react";
 import { CountryCode } from "./interfaces";
-import { countriesTheFinal, countriesThatGiveScore } from "./countriesList";
+import {
+  countriesTheFinal,
+  countriesThatGiveScore,
+  isoCodeToName
+} from "./countriesList";
 import { getCellForGroup } from "./utils";
 import { StateContainerContext } from "./StateContainer";
 
@@ -21,10 +25,14 @@ export function useCellData(x: number, y: number) {
     })();
 
   return useMemo(() => {
-    return getCellForGroup([
-      ["receiving", countriesInTheFinal[y]],
-      ["giving", countriesGivingScore[x]]
-    ]);
+    return {
+      ...getCellForGroup([
+        ["receiving", countriesInTheFinal[y]],
+        ["giving", countriesGivingScore[x]]
+      ]),
+      receiving: isoCodeToName[countriesInTheFinal[y]],
+      giving: isoCodeToName[countriesGivingScore[x]]
+    };
   }, [countriesGivingScore, countriesInTheFinal, x, y]);
 }
 

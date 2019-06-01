@@ -8234,10 +8234,10 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
-"react-window@npm:@brandtotal/react-window:react-window":
-  version "1.8.2"
-  resolved "https://registry.npmjs.org/react-window/-/react-window-1.8.2.tgz#edd0effe302196263ac3eac20a14c041acd4c17d"
-  integrity sha512-Qo9Z5qYvigRbSlCaWTor53G3EWVtHxXXny86EYsMG57H+4LJEEyh22PuWW6ECCkOh7sY6wWF78+wNGwPnMBCAg==
+"react-window@npm:@brandtotal/react-window":
+  version "1.8.1-bt"
+  resolved "https://registry.npmjs.org/@brandtotal/react-window/-/react-window-1.8.1-bt.tgz#a8830a6c3836442cc7bcbbb7f42f1ad656658c05"
+  integrity sha512-1q4Ou9DaTHzBNoD5s1VsAoIBuHiylg3PMFnZmuKC4XnNSl4+UoxlIXTabajtszh6i+B+fHRiAeo8hcdvK6Agtw==
   dependencies:
     "@babel/runtime" "^7.0.0"
     memoize-one ">=3.1.1 <6"

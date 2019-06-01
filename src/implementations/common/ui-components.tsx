@@ -191,6 +191,7 @@ export const DataCellComponent = React.memo(function DataCellComponent(
         [style.oddColumn]: pointInDataSpace.x % 2 > 0,
         [style.evenColumn]: pointInDataSpace.x % 2 === 0
       })}
+      title={`receiving: ${dataCell.receiving} - giving: ${dataCell.giving}`}
     >
       {dataCell.value}
     </div>

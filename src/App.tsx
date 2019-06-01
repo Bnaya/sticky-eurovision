@@ -6,6 +6,7 @@ import { StickyWithInlineBlock } from "./implementations/StickyWithInlineBlock/S
 import { SimpleTable } from "./implementations/SimpleTable/SimpleTable";
 import { StateContainer } from "./implementations/common/StateContainer";
 import { WithReactWindow } from "./implementations/WithReactWindow/WithReactWindow";
+import { WithReactWindowAndSticky } from "./implementations/WithReactWindowAndSticky/WithReactWindowAndSticky";
 
 const App: React.FC = () => {
   return (
@@ -25,6 +26,11 @@ const App: React.FC = () => {
             </li>
             <li>
               <Link to="/with-react-window">With react-window</Link>
+            </li>
+            <li>
+              <Link to="/with-react-window-and-sticky-shlif">
+                With react-window and sticky shlif
+              </Link>
             </li>
             <li>
               <a
@@ -56,6 +62,10 @@ const App: React.FC = () => {
           <RouterPage
             routeComponent={WithReactWindow}
             path="/with-react-window"
+          />
+          <RouterPage
+            routeComponent={WithReactWindowAndSticky}
+            path="/with-react-window-and-sticky-shlif"
           />
         </Router>
       </div>

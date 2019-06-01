@@ -13,7 +13,7 @@
     "react-dom": "npm:@hot-loader/react-dom",
     "react-hot-loader": "^4.8.8",
     "react-scripts": "3.0.1",
-    "react-window": "npm:@brandtotal/react-window:react-window",
+    "react-window": "npm:@brandtotal/react-window",
     "typescript": "3.5.1"
   },
   "scripts": {
@@ -27,10 +27,15 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
+    "_production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
+    ],
+    "production": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ],
     "development": [
       "last 1 chrome version",

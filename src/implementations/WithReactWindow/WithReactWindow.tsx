@@ -1,17 +1,7 @@
 import React, { useRef } from "react";
-import style from "./WithReactWindow.module.scss";
-import classNames from "classnames";
 import { useDataPlot, useBoundingClientRect } from "../common/hooks";
-import {
-  CellVisualComponentChooser,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  keyProvider,
-  getSpecialSlugForPoint,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  keyProviderDataAware
-} from "../common/ui-components";
+import { CellVisualComponentChooser } from "../common/ui-components";
 import { IPointObjectInGlobalSpace } from "../common/interfaces";
-
 import { FixedSizeGrid, GridChildComponentProps } from "react-window";
 
 export function WithReactWindow() {
@@ -33,7 +23,7 @@ export function WithReactWindow() {
         rowCount={countriesInTheFinal.length + 2}
         rowHeight={100}
         width={rect.width}
-        overscanCount={0}
+        overscanCount={2}
       >
         {GridCell}
       </FixedSizeGrid>
