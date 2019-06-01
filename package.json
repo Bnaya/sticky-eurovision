@@ -3,16 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@brandtotal/react-window": "^1.8.1-bt",
+    "@reach/router": "^1.2.1",
     "@types/jest": "24.0.13",
     "@types/node": "12.0.2",
-    "@types/react": "16.8.18",
+    "@types/react": "16.8.19",
     "@types/react-dom": "16.8.4",
     "classnames": "^2.2.6",
     "react": "^16.8.6",
     "react-dom": "npm:@hot-loader/react-dom",
     "react-hot-loader": "^4.8.8",
     "react-scripts": "3.0.1",
-    "typescript": "3.4.5"
+    "typescript": "3.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,10 +27,15 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
+    "_production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
+    ],
+    "production": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ],
     "development": [
       "last 1 chrome version",
@@ -37,7 +44,10 @@
     ]
   },
   "devDependencies": {
-    "@types/classnames": "^2.2.7",
+    "@types/classnames": "^2.2.8",
+    "@types/reach__router": "^1.2.4",
+    "@types/react-window": "^1.8.0",
+    "node-sass": "^4.12.0",
     "yarn-deduplicate": "^1.1.1"
   },
   "resolutions": {

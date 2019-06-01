@@ -47,3 +47,16 @@ export interface IPointObject {
   columnsCount: number;
   rowsCount: number;
 }
+
+export interface IPointObjectInGlobalSpace extends IPointObject {
+  space: "global";
+}
+
+export interface IPointObjectInDataSpace extends IPointObject {
+  space: "data";
+}
+
+export interface ISortState {
+  direction: "asc" | "desc";
+  country: CountryCode;
+}

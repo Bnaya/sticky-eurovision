@@ -1,11 +1,6 @@
-:global body {
-  padding: 0;
-  margin: 0;
-}
-
 .wrapper {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .grid {
@@ -14,14 +9,22 @@
   white-space: nowrap;
   overflow: auto;
   position: relative;
+  scroll-snap-type: both mandatory;
+}
+
+.rowWrapper {
+  width: calc(var(--columnsCount) * var(--cellWidthHeight))
 }
 
 .firstRowWrapper {
-
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .lastRowWrapper {
-
+  position: sticky;
+  bottom: 0;
 }
 
 .baseCell {
@@ -33,6 +36,8 @@
   justify-content: center;
   vertical-align: middle;
   white-space: normal;
+  text-shadow: #FC0 1px 0 10px;
+  scroll-snap-align: start;
 }
 
 .baseHeaderFooterStarterEnder {
@@ -41,11 +46,14 @@
   background-position: center center;
   background-size: contain;
   font-size: 16px;
+  background-color: #FFF;
 }
 
 .baseCornerCell {
   composes: baseCell;
-  position: relative;
+  position: sticky;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 3;
 }
 
 .baseCornerCell::before {
@@ -68,19 +76,27 @@
 }
 
 .cellInLeftTopCorner {
-  composes: baseCornerCell
+  composes: baseCornerCell;
+  top: 0;
+  left: 0;
 }
 
 .cellInRightTopCorner {
-  composes: baseCornerCell
+  top: 0;
+  right: 0;
+  composes: baseCornerCell;
 }
 
 .cellInLeftBottomCorner {
-  composes: baseCornerCell
+  left: 0;
+  bottom: 0;
+  composes: baseCornerCell;
 }
 
 .cellInRightBottomCorner {
-  composes: baseCornerCell
+  right: 0;
+  bottom: 0;
+  composes: baseCornerCell;
 }
 
 .cellInRightBottomCorner::before, .cellInLeftBottomCorner::before {
@@ -91,22 +107,50 @@
 }
 
 .cellInFirstRow {
-  composes: baseHeaderFooterStarterEnder
+  composes: baseHeaderFooterStarterEnder;
 }
 
 .cellInLastRow {
-  composes: baseHeaderFooterStarterEnder
+  composes: baseHeaderFooterStarterEnder;
 }
 
 .cellInFirstColumn {
-  composes: baseHeaderFooterStarterEnder
+  composes: baseHeaderFooterStarterEnder;
+  position: sticky;
+  left: 0;
 }
 
 .cellInLastColumn {
-  composes: baseHeaderFooterStarterEnder
+  composes: baseHeaderFooterStarterEnder;
+  position: sticky;
+  right: 0;
 }
 
 .regularCell {
   composes: baseCell;
   font-size: 25px;
+}
+
+.oddRow {
+
+}
+
+.evenRow {
+
+}
+
+.oddColumn {
+
+}
+
+.evenColumn {
+
+}
+
+.regularCell.oddRow.oddColumn {
+  background-color: blue;
+}
+
+.regularCell.evenRow.evenColumn {
+  background-color: blueviolet;
 }

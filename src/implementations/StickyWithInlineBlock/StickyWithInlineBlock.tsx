@@ -1,13 +1,11 @@
 import React, { CSSProperties } from "react";
-import { hot } from "react-hot-loader/root";
-import { IDateEntry, IPointObject } from "../interfaces";
-import staticData from "../staticData.json";
-import style from "./EurovisionTable.module.css";
+import { IPointObject, IPointObjectInGlobalSpace } from "../common/interfaces";
+import style from "./StickyWithInlineBlock.module.css";
 import {
   countriesTheFinal,
   isoCodeToName,
   countriesThatGiveScore
-} from "../countriesList";
+} from "../common/countriesList";
 import {
   // isNorthWest,
   // isNorthEast,
@@ -24,15 +22,22 @@ import {
   isNorthEast,
   isSouthWest,
   isSouthEast
-} from "../utils";
+} from "../common/utils";
 import classNames from "classnames";
 
-export const staticDataTyped: IDateEntry[] = staticData as IDateEntry[];
-
-export function EurovisionTable() {
+export function StickyWithInlineBlock() {
   return (
     <div className={style.wrapper}>
-      <div className={style.grid} style={{} as CSSProperties}>
+      <div
+        className={style.grid}
+        style={
+          {
+            "--rowsCount": `${countriesTheFinal.length + 2}`,
+            "--columnsCount": `${countriesThatGiveScore.length + 2}`,
+            "--cellWidthHeight": 100 + "px"
+          } as CSSProperties
+        }
+      >
         {renderCells()}
       </div>
     </div>
@@ -49,6 +54,7 @@ function renderCells() {
     for (let columnIndex = 0; columnIndex < columnsCount; columnIndex++) {
       rowCells.push(
         cellReactElement({
+          space: "global",
           x: columnIndex,
           y: rowIndex,
           columnsCount,
@@ -60,9 +66,11 @@ function renderCells() {
       <div
         key={`row-${rowIndex}`}
         data-key={`row-${rowIndex}`}
-        className={classNames({
+        className={classNames(style.rowWrapper, {
           [style.firstRowWrapper]: rowIndex === 0,
-          [style.lastRowWrapper]: rowIndex === rowsCount - 1
+          [style.lastRowWrapper]: rowIndex === rowsCount - 1,
+          [style.oddRow]: rowIndex % 2 > 0,
+          [style.evenRow]: rowIndex % 2 === 0
         })}
       >
         {rowCells}
@@ -73,7 +81,7 @@ function renderCells() {
   return toReturn;
 }
 
-function cellReactElement(point: IPointObject) {
+function cellReactElement(point: IPointObjectInGlobalSpace) {
   const className = getClassnamesForPoint(point);
 
   if (isCornerCell(point)) {
@@ -85,7 +93,7 @@ function cellReactElement(point: IPointObject) {
   const pointInDataCellsSpace = toDataObjectPointSpace(point);
 
   if (isRowEnder(point) || isRowStarter(point)) {
-    const isoCode = countriesTheFinal[pointInDataCellsSpace.y];
+    const isoCode = countriesTheFinal[point.y];
     return (
       <EdgeComponent
         key={`${point.x}-${point.x}`}
@@ -146,14 +154,17 @@ function dataCellReactElement(pointInDataSpace: IPointObject) {
     <div
       data-key={`data-cell-${pointInDataSpace.x}-${pointInDataSpace.y}`}
       key={`data-cell-${pointInDataSpace.x}-${pointInDataSpace.y}`}
-      className={style.regularCell}
+      className={classNames(style.regularCell, {
+        [style.oddRow]: pointInDataSpace.y % 2 > 0,
+        [style.evenRow]: pointInDataSpace.y % 2 === 0,
+        [style.oddColumn]: pointInDataSpace.x % 2 > 0,
+        [style.evenColumn]: pointInDataSpace.x % 2 === 0
+      })}
     >
       {dataCell.value}
     </div>
   );
 }
-
-export const EurovisionTableHot = hot(EurovisionTable);
 
 function getClassnamesForPoint(pointInGlobalSpace: IPointObject): string {
   if (isNorthWest(pointInGlobalSpace)) {

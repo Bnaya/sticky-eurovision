@@ -1,0 +1,79 @@
+.gridWrapper {
+}
+
+.reactWindowElement {
+  scroll-snap-type: both mandatory;
+  > div {
+    display: grid;
+    grid-template-columns: repeat(var(--columnsCount), 100px);
+    grid-template-rows: repeat(var(--rowsCount), 100px);
+  }
+}
+
+.layout_base {
+  vertical-align: middle;
+}
+
+.layout_regularCell {
+  composes: layout_base;
+}
+
+.layout_cellInFirstColumn {
+  composes: layout_base;
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+.layout_cellInLastColumn {
+  composes: layout_base;
+  position: sticky;
+  right: 0;
+  z-index: 2;
+}
+
+.layout_cellInFirstRow {
+  composes: layout_base;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.layout_cellInLastRow {
+  composes: layout_base;
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+}
+
+.layout_cellInLeftTopCorner {
+  composes: layout_base;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.layout_cellInRightTopCorner {
+  composes: layout_base;
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 4;
+}
+
+.layout_cellInLeftBottomCorner {
+  composes: layout_base;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  z-index: 4;
+}
+
+.layout_cellInRightBottomCorner {
+  composes: layout_base;
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+}
