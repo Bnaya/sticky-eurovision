@@ -2,6 +2,8 @@
 
 Contains 4 different implementations of a scrollable table showing Eurovision 2019 Grand Final results.
 
+<img src="./src/demo2.gif" width="200" alt="Demo animated gif" />
+
 Some of them including "Frozen" (spreadsheet-like) header-footer-starter-ender, implemented without javascript, but CSS sticky only!
 
 I hope the different implementations will help understand better the topics separately. (As they did for me)
@@ -14,7 +16,7 @@ I chose hard-coded cell size of 100x100 cell for simplicity,
 But i don't see any blocker to implement it with even variable rows/columns, and multiple frozen rows/columns.  
 I will probably add a variant with ability to remove rows/columns.
 
-### Why CSS sticky is a thing?
+## Why CSS sticky is a thing?
 
 **It's our only!**(?\*) api to tell the browser that the scrolling and positioning of an element should be synced in a way:
 
@@ -25,11 +27,25 @@ I will probably add a variant with ability to remove rows/columns.
 
 [*] Until [houdini animationworklet](https://drafts.css-houdini.org/css-animationworklet/) are available and widely supported
 
-### Some other similar solutions: (NEED TO WRITE MORE INFO)
+### Other implementations / Does all the other so bad?(No!) (This section needs its own article)
 
-- If you have only frozen r
+It's all about tradeoffs, legacy, and flexibility.
+Other similar table/spreadsheet-like grids are using a combination of nested/multiple scrollable areas, and scrolling them together.
+To avoid the sync lag due to the late-scroll-event, you will see some of them disabling native scroll, or scrolling empty big surface listening to the events, and scrolling the actually content using JS. It is an overhead, and you might loose some of the native scrolling behavior like scrollsnap, momentum, overscroll, and there's many places to make mistakes and kill performances and UX.
+BUT you get endless flexibility layout-wise!.
 
-### And a personal note: I have failed few times before
+Some notable examples:
+
+- https://www.ag-grid.com/example.php#/
+- Google spreadsheet (the visual stuff are rendered into canvas but they hold also DOM cells for events!)
+- https://bvaughn.github.io/react-virtualized/#/components/ScrollSync
+
+## What the future holds:
+
+- https://drafts.css-houdini.org/css-animationworklet/ houdini is not practical yet, but its good to read about it.
+- https://developer.mozilla.org/en-US/docs/Web/CSS/contain to be widely supported.
+
+### And a personal note: I have failed several times before
 
 The code might look now simple and clear, But it took me many mistakes, frustrations and iterations to bring it to this state, But i'm sure it can get even better!
 
