@@ -2,6 +2,7 @@
 }
 
 .reactWindowElement {
+  scroll-snap-type: both mandatory;
   > div {
     display: grid;
     grid-template-columns: repeat(var(--columnsCount), 100px);
