@@ -11,7 +11,7 @@
     "@types/react-dom": "16.8.4",
     "classnames": "^2.2.6",
     "react": "^16.8.6",
-    "react-dom": "npm:@hot-loader/react-dom",
+    "react-dom": "^16.8.6",
     "react-hot-loader": "^4.8.8",
     "react-scripts": "3.0.1",
     "typescript": "3.5.1"
@@ -51,6 +51,7 @@
     "yarn-deduplicate": "^1.1.1"
   },
   "resolutions": {
-    "babel-preset-react-app": "npm:babel-preset-react-app-with-rhl"
+    "babel-preset-react-app": "npm:babel-preset-react-app-with-rhl",
+    "react-dom": "npm:@hot-loader/react-dom"
   }
 }
