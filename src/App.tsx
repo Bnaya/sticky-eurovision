@@ -17,6 +17,7 @@ import { SimpleTable } from "./implementations/SimpleTable/SimpleTable";
 import { StateContainer } from "./implementations/common/StateContainer";
 import { WithReactWindow } from "./implementations/WithReactWindow/WithReactWindow";
 import { WithReactWindowAndSticky } from "./implementations/WithReactWindowAndSticky/WithReactWindowAndSticky";
+import { WithReactWindowDomReuse } from "./implementations/WithReactWindowDOMReuse/WithReactWindowDOMReuse";
 
 const App: React.FC = () => {
   return (
@@ -43,6 +44,9 @@ const App: React.FC = () => {
               </Link>
             </li>
             <li>
+              <Link to="/dom-reuse-simple">dom reuse simple</Link>
+            </li>
+            <li>
               <a
                 href="https://github.com/bvaughn/react-window/compare/master...Bnaya:iterations?expand=1#diff-24a00237a136050a93a551637894b705R283"
                 target="for-external-links"
@@ -63,12 +67,7 @@ const App: React.FC = () => {
           </ul>
         </nav>
         <Router className={appStyles.content}>
-          <Redirect
-            path="/"
-            from="/"
-            to="/with-react-window-and-sticky-shlif"
-            noThrow={true}
-          />
+          <Redirect path="/" from="/" to="/dom-reuse-simple" noThrow={true} />
           <RouterPage routeComponent={SimpleTable} path="/simple-table" />
           <RouterPage
             routeComponent={StickyWithInlineBlock}
@@ -81,6 +80,10 @@ const App: React.FC = () => {
           <RouterPage
             routeComponent={WithReactWindowAndSticky}
             path="/with-react-window-and-sticky-shlif"
+          />
+          <RouterPage
+            routeComponent={WithReactWindowDomReuse}
+            path="/dom-reuse-simple"
           />
         </Router>
       </div>
