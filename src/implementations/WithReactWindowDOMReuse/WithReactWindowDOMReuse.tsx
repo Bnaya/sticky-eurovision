@@ -33,8 +33,8 @@ export function WithReactWindowDomReuse() {
         rowCount={countriesInTheFinal.length + 2}
         rowHeight={100}
         width={rect.width}
-        overscanColumnsCount={2}
-        overscanRowsCount={2}
+        overscanColumnsCount={1}
+        overscanRowsCount={1}
         itemKey={itemKeyProvider}
       >
         {GridCell}
