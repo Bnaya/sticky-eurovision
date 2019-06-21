@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useCallback } from "react";
 import style from "./SimpleTable.module.scss";
 import classNames from "classnames";
 import { useDataPlot } from "../common/hooks";
@@ -13,17 +13,46 @@ import {
 import { IPointObjectInGlobalSpace } from "../common/interfaces";
 
 export function SimpleTable() {
+  const [activateSticky, setActivateSticky] = useState(false);
+
+  const toggleActivateSticky = useCallback(() => {
+    setActivateSticky(prev => !prev);
+  }, [setActivateSticky]);
+
   return (
-    <div className={style.scrollablePart}>
-      <table
-        className={classNames(style.grid, {
-          [style.activateStickiness]: true
-        })}
+    <div
+      style={{
+        display: "grid",
+        gridAutoRows: "auto 1fr",
+        overflow: "hidden",
+        height: "100%"
+      }}
+    >
+      <button
+        style={{
+          justifySelf: "center"
+        }}
+        onClick={toggleActivateSticky}
       >
-        <tbody>
-          <RenderCells />
-        </tbody>
-      </table>
+        Toggle Sticky
+      </button>
+      <div
+        style={{
+          overflow: "hidden"
+        }}
+      >
+        <div className={style.scrollablePart}>
+          <table
+            className={classNames(style.grid, {
+              [style.activateStickiness]: activateSticky
+            })}
+          >
+            <tbody>
+              <RenderCells />
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }

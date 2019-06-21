@@ -26,9 +26,7 @@ const App: React.FC = () => {
         <nav className={appStyles.nav}>
           <ul>
             <li>
-              <Link to="/simple-table">
-                Simple Table - No Frozen Rows Columns
-              </Link>
+              <Link to="/simple-table">Simple Table - Toggle</Link>
             </li>
             <li>
               <Link to="/sticky-inline-block">
