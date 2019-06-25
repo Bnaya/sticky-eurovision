@@ -118,6 +118,8 @@ const GridCell = function GridCell(
   return (
     <div
       style={forGridCss}
+      // will also work, we then we can create a grid with finite row/col
+      // style={cellSlugInGlobalSpace === "regularCell" ? props.style : forGridCss}
       className={style["layout_" + cellSlugInGlobalSpace]}
     >
       <CellVisualComponentChooser {...maybeTransformed} />

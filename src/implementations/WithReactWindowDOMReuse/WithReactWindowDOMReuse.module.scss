@@ -1,0 +1,16 @@
+.spinOn {
+  animation-duration: 1s;
+  animation-name: twoSpins;
+}
+
+@keyframes twoSpins {
+  from {
+    transform-origin: center center;
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform-origin: center center;
+    transform: rotate(360deg);
+  }
+}
