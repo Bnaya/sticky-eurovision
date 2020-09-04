@@ -47,7 +47,7 @@
     "@types/classnames": "^2.2.8",
     "@types/reach__router": "^1.2.4",
     "@types/react-window": "^1.8.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "yarn-deduplicate": "^1.1.1"
   },
   "resolutions": {
